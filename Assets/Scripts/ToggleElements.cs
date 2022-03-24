@@ -27,6 +27,7 @@ public class ToggleElements : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3))
         {
             Debug.Log("Water Activated");
+            Instantiate(water);
         }
         if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4))
         {

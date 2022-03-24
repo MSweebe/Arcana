@@ -9,7 +9,7 @@ public class Earth : MonoBehaviour
     public float distanceAhead = 1f;
     public float yMax = 1f;
     public float duration = 1;
-    public float height = 0;
+
 
     public float size = 1f;
     public float sinEccentricity = 0.6f;
@@ -24,6 +24,7 @@ public class Earth : MonoBehaviour
     const float TopTime = .8f;
     const float Pause2Dur = 1;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,9 +32,6 @@ public class Earth : MonoBehaviour
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         Vector3 playerPos = player.transform.position;
         playerDir = player.transform.forward;
-
-        //set position of air off the ground
-        playerPos.y += height;
 
         //set position in front of player
         startingPos = playerPos + playerDir * distanceAhead;
@@ -57,7 +55,7 @@ public class Earth : MonoBehaviour
 
             Vector3 currentScale = transform.localScale;
 
-            currentScale.y = (1 - u) * 0f + u * (pauseHeight);
+            currentScale.y = (1 - u) * startingPos.y + u * (startingPos.y + pauseHeight);
             // Interpolate the two linear interpolation points
 
             transform.localScale = currentScale;
@@ -73,8 +71,9 @@ public class Earth : MonoBehaviour
 
             Vector3 currentScale = transform.localScale;
 
-            currentScale.y = (1 - v) * pauseHeight + v * (yMax);
+            currentScale.y = (1 - v) * (startingPos.y + pauseHeight) + v * (startingPos.y + yMax);
             // Interpolate the two linear interpolation points
+            //startingPos.y is to ensure at different heights the player can use earth
 
             transform.localScale = currentScale;
         }
