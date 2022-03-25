@@ -58,3 +58,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+# Wakatime changes
+.wakatime-project
+
+# Plastic SCM changes
+/.plastic/
