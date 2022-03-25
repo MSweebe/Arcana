@@ -33,10 +33,10 @@ public class ToggleElements : MonoBehaviour
             Instantiate(air);
         }
         //testing purposes
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.rotation *= Quaternion.Euler(0, 5f, 0);
-        }
+        //if (Input.GetKeyDown(KeyCode.LeftArrow))
+        //{
+        //    GameObject player = GameObject.FindGameObjectWithTag("Player");
+        //    player.transform.rotation *= Quaternion.Euler(0, 5f, 0);
+        //}
     }
 }
