@@ -8,6 +8,7 @@ TagManager:
   - Environment_Int
   - Environment_NonInt
   - Collectibles
+  - Floor
   layers:
   - Default
   - TransparentFX
