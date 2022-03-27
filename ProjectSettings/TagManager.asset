@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Element
+  - Environment_Int
+  - Environment_NonInt
+  - Collectibles
+  - Floor
   layers:
   - Default
   - TransparentFX
@@ -11,11 +16,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Environment_NonInt
+  - Environment_Int
+  - Collectibles
+  - Elements
   - 
   - 
   - 
