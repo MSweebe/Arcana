@@ -1818,6 +1818,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39f1791c4d09946b2ab53c82f1b5121b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  range: 5
   prefab: {fileID: 400000, guid: 129cfb255bc090342ac36842d5d2d4ef, type: 3}
 --- !u!4 &1672037030
 Transform:

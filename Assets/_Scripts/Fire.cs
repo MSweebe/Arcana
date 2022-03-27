@@ -57,7 +57,7 @@ public class Fire : MonoBehaviour
 
             Interactible hitGOScript = hitGO.GetComponent<Interactible>();
             Debug.Log("onfire" + hitGOScript.onFire);
-            if (hitGOScript.onFire && Time.time - hitGOScript.fireStart > duration)
+            if (hitGOScript.onFire && Time.time - hitGOScript.intStart > duration)
             {
                 hitGOScript.onFire = false;
             }

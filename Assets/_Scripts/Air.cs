@@ -63,4 +63,19 @@ public class Air : MonoBehaviour
 
 
     }
+    private void OnTriggerEnter(Collider col)
+    {
+
+        GameObject hitGO = col.gameObject;
+        if (hitGO.tag == "Environment_Int")
+        {
+            Debug.Log("Interactible");
+
+            Interactible hitGOScript = hitGO.GetComponent<Interactible>();
+            Debug.Log("onfire" + hitGOScript.onFire);
+
+            hitGOScript.onFire = false;
+
+        }
+    }
 }
