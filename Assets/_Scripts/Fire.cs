@@ -53,10 +53,14 @@ public class Fire : MonoBehaviour
         GameObject hitGO = col.gameObject;
         if (hitGO.tag == "Environment_Int")
         {
-            Debug.Log("Interactible");
+            // Debug.Log("Interactible");
 
             Interactible hitGOScript = hitGO.GetComponent<Interactible>();
-            Debug.Log("onfire" + hitGOScript.onFire);
+            //Debug.Log("onfire" + hitGOScript.onFire);
+            if (hitGOScript == null)
+            {
+                return;
+            }
             if (hitGOScript.onFire && Time.time - hitGOScript.intStart > duration)
             {
                 hitGOScript.onFire = false;
