@@ -555,9 +555,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6196691178725194382}
-  m_Layer: 6
+  m_Layer: 0
   m_Name: PlayerGroup
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -824,7 +824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1083061572719632828, guid: 51930d199b2cfa44ab1441434f28e66b, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: -0.118
       objectReference: {fileID: 0}
     - target: {fileID: 1083061572719632828, guid: 51930d199b2cfa44ab1441434f28e66b, type: 3}
       propertyPath: m_LocalRotation.w
