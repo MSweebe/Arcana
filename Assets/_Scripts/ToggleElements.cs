@@ -11,28 +11,27 @@ public class ToggleElements : MonoBehaviour
     public GameObject earth;
     public GameObject air;
     // Update is called once per frame
-
     void Update()
     {
         //toggling four basic elements with number keys
-        if (Input.GetKeyUp(KeyCode.Keypad1) || Input.GetKeyUp(KeyCode.Alpha1))
+        if (Input.GetKeyDown(KeyCode.Keypad1) || Input.GetKeyDown(KeyCode.Alpha1))
         {
-
+            Debug.Log("Fire Activated");
             Instantiate(fire);
         }
         if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2))
         {
-            //Debug.Log("Earth Activated");
+            Debug.Log("Earth Activated");
             Instantiate(earth);
         }
         if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3))
         {
-            //Debug.Log("Water Activated");
+            Debug.Log("Water Activated");
             Instantiate(water);
         }
         if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4))
         {
-            //Debug.Log("Air activated");
+            Debug.Log("Air activated");
             Instantiate(air);
         }
         //testing purposes

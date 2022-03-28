@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 4741972850243979214}
   - component: {fileID: 6851603800392420758}
   - component: {fileID: 1393456541269878065}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Water Basic
-  m_TagString: Element
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

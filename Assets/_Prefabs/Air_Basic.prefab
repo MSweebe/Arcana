@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 8140476236748710639}
   - component: {fileID: 2921730730065232680}
   - component: {fileID: -4317905714895962133}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Air_Basic
-  m_TagString: Element
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

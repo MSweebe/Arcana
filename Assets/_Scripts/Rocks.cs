@@ -5,7 +5,6 @@ using UnityEngine;
 public class Rocks : MonoBehaviour
 {
     public float range;
-    public Transform parent;
     public Transform prefab;
     // Start is called before the first frame update
     void Start()
@@ -19,8 +18,6 @@ public class Rocks : MonoBehaviour
                 continue;
             }
             Instantiate(prefab, random, Quaternion.identity);
-            Transform newRock = Instantiate(prefab, random, Quaternion.identity);
-            newRock.parent = parent.transform;
         }
     }
 
