@@ -75,4 +75,25 @@ public class Water : MonoBehaviour
 
 
     }
+    private void OnTriggerEnter(Collider col)
+    {
+
+        GameObject hitGO = col.gameObject;
+        if (hitGO.tag == "Environment_Int")
+        {
+            Debug.Log("Interactible");
+
+            Interactible hitGOScript = hitGO.GetComponent<Interactible>();
+
+            if (hitGOScript.canFlood && hitGOScript.isFlooded && Time.time - hitGOScript.intStart > duration)
+            {
+                hitGOScript.isFlooded = false;
+            }
+            else if (hitGOScript.canFlood)
+            {
+                hitGOScript.isFlooded = true;
+
+            }
+        }
+    }
 }

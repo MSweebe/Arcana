@@ -38,7 +38,6 @@ public class Fire : MonoBehaviour
     void Update()
     {
         float u = (Time.time - birthTime) / duration;
-
         if (u > 1)
         {
             Destroy(this.gameObject);
@@ -46,5 +45,30 @@ public class Fire : MonoBehaviour
         }
         transform.localScale = scale * (1 + u) * size;
         transform.position += playerDir * Time.deltaTime * reach;
+    }
+
+    private void OnTriggerEnter(Collider col)
+    {
+
+        GameObject hitGO = col.gameObject;
+        if (hitGO.tag == "Environment_Int")
+        {
+            // Debug.Log("Interactible");
+
+            Interactible hitGOScript = hitGO.GetComponent<Interactible>();
+            //Debug.Log("onfire" + hitGOScript.onFire);
+            if (hitGOScript == null)
+            {
+                return;
+            }
+            if (hitGOScript.onFire && Time.time - hitGOScript.intStart > duration)
+            {
+                hitGOScript.onFire = false;
+            }
+            else
+            {
+                hitGOScript.onFire = true;
+            }
+        }
     }
 }
