@@ -5,6 +5,8 @@ using UnityEngine;
 public class BirchTree : MonoBehaviour
 {
     public Transform prefab;
+    public float range;
+    public GameObject parent;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +18,8 @@ public class BirchTree : MonoBehaviour
                 i--;
                 continue;
             }
-            Instantiate(prefab, random, Quaternion.identity);
+            Transform newTree = Instantiate(prefab, random, Quaternion.identity);
+            newTree.parent = parent.transform;
         }
     }
 
