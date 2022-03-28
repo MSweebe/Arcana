@@ -7613,10 +7613,10 @@ GameObject:
   m_Component:
   - component: {fileID: 693932621}
   - component: {fileID: 693932622}
+  - component: {fileID: 693932623}
   m_Layer: 7
-
-  m_Name: CellDoor
-  m_TagString: Environment_NonInt
+  m_Name: 
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8451,9 +8451,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1604657260}
     m_Modifications:
+    - target: {fileID: 1266664356686274, guid: 42612f8b6c0dce8468648f3f08db6d96, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1370723301690648, guid: 42612f8b6c0dce8468648f3f08db6d96, type: 3}
       propertyPath: m_Name
       value: TriggerCandle
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370723301690648, guid: 42612f8b6c0dce8468648f3f08db6d96, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1370723301690648, guid: 42612f8b6c0dce8468648f3f08db6d96, type: 3}
+      propertyPath: m_TagString
+      value: Environment_Int
       objectReference: {fileID: 0}
     - target: {fileID: 4203199286425600, guid: 42612f8b6c0dce8468648f3f08db6d96, type: 3}
       propertyPath: m_RootOrder
@@ -17887,6 +17899,23 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.16
   m_Center: {x: 0.0026827473, y: 0.086561024, z: 0.001922382}
+--- !u!114 &1744462150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1744462143}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cbb1561b139c04468d27fc9550a22d2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onFire: 0
+  canFlood: 0
+  isFlooded: 0
+  height: 0
+  intStart: -1
 --- !u!1001 &1745220923
 PrefabInstance:
   m_ObjectHideFlags: 0
