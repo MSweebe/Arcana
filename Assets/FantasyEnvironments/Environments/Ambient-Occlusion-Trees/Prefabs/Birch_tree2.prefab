@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 33990256434022284}
   - component: {fileID: 23320235798237312}
   - component: {fileID: 136367590879483440}
-  m_Layer: 7
+  m_Layer: 0
   m_Name: Birch_tree2
-  m_TagString: Environment_NonInt
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
