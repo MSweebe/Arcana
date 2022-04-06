@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4160908596479848}
   - component: {fileID: 33127534802762060}
   - component: {fileID: 23767264455629678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Candle2
-  m_TagString: Untagged
+  m_TagString: Environment_Int
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -94,7 +94,7 @@ GameObject:
   - component: {fileID: 212629724716671694}
   - component: {fileID: 95138740343470756}
   - component: {fileID: 114705201235525878}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: red_flame_0 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
