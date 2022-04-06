@@ -22,14 +22,7 @@ public class Interactible : MonoBehaviour
             {
                 intStart = Time.time;
             }
-            if (transform.childCount == 0)
-            {
-                Vector3 position = transform.position;
-                position.y += height;
-                //change mat
-                Material interact_mat = Resources.Load("Interacted", typeof(Material)) as Material;
-                this.gameObject.GetComponent<Renderer>().material = interact_mat;
-            }
+
         }
         else
         {
@@ -37,12 +30,7 @@ public class Interactible : MonoBehaviour
             {
                 float fireDuration = GameObject.Find("Fire Basic").GetComponent<Fire>().duration;
             }
-            if (transform.childCount != 0)
-            {
-                intStart = -1;
-                GameObject child = this.gameObject.transform.GetChild(0).gameObject;
-                Destroy(child);
-            }
+
             Material interact_mat = Resources.Load("Candle_Mat", typeof(Material)) as Material;
             this.gameObject.GetComponent<Renderer>().material = interact_mat;
         }
