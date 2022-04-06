@@ -54,11 +54,8 @@ public class Water : MonoBehaviour
 
         if (u > 1)
         {
-
-            // This Enemy_3 has finished its life
             Destroy(this.gameObject);
             return;
-
         }
 
 
@@ -82,18 +79,14 @@ public class Water : MonoBehaviour
         GameObject hitGO = col.gameObject;
         if (hitGO.tag == "Environment_Int")
         {
-            Debug.Log("Interactible");
-
             Interactible hitGOScript = hitGO.GetComponent<Interactible>();
 
-            if (hitGOScript.canFlood && hitGOScript.isFlooded && Time.time - hitGOScript.intStart > duration)
+            if (hitGOScript == null)
             {
-                hitGOScript.isFlooded = false;
+                return;
             }
-            else if (hitGOScript.canFlood)
-            {
-                hitGOScript.isFlooded = true;
-            }
+            //floods the plane if there is a written flood
+            hitGOScript.Flooded();
         }
     }
 }
