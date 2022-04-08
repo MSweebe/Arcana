@@ -127,8 +127,7 @@ GameObject:
   - component: {fileID: 4203199286425600}
   - component: {fileID: 33188093941717980}
   - component: {fileID: 23995610767706752}
-  - component: {fileID: 7854414784190351007}
-  - component: {fileID: 7153948734148925022}
+  - component: {fileID: 5523766546587528588}
   m_Layer: 0
   m_Name: Candle3 1
   m_TagString: Untagged
@@ -200,33 +199,16 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &7854414784190351007
+--- !u!114 &5523766546587528588
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1370723301690648}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8477a8018c017d44d80f4539f8d0dfc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onFire: 0
-  canFlood: 0
-  isFlooded: 0
-  height: 0
-  intStart: -1
---- !u!114 &7153948734148925022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1370723301690648}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8477a8018c017d44d80f4539f8d0dfc7, type: 3}
+  m_Script: {fileID: 11500000, guid: 02a9c566c39477440b69a07fab3aaf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   onFire: 0

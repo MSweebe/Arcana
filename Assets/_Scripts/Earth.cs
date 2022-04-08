@@ -18,11 +18,11 @@ public class Earth : MonoBehaviour
     float phase2Start = -1;
     Vector3 startingPos;
     Vector3 playerDir;
-    const float Step1Dur = .8f;
-    const float pauseHeight = .3f;
+    const float Step1Dur = 1.5f;
+    const float pauseHeight = .1f;
     const float PauseDur = .3f;
     const float TopTime = .8f;
-    const float Pause2Dur = 1;
+    const float Pause2Dur = 1f;
 
 
     // Start is called before the first frame update
@@ -33,12 +33,20 @@ public class Earth : MonoBehaviour
         Vector3 playerPos = player.transform.position;
         playerDir = player.transform.forward;
 
+
+
         //set position in front of player
         startingPos = playerPos + playerDir * distanceAhead;
+        Vector3 scale = transform.localScale;
+        scale.y = yMax + startingPos.y;
+        startingPos.y -= yMax / 2f;
 
         //setting variables for Update
         transform.position = startingPos;
         phase1Start = Time.time;
+
+
+        transform.localScale = scale;
     }
 
     // Update is called once per frame
@@ -53,12 +61,12 @@ public class Earth : MonoBehaviour
             //Easing on both assents
             u = u + sinEccentricity * (Mathf.Sin(u * Mathf.PI));
 
-            Vector3 currentScale = transform.localScale;
+            Vector3 currentPos = transform.position;
 
-            currentScale.y = (1 - u) * startingPos.y + u * (startingPos.y + pauseHeight);
+            currentPos.y = (1 - u) * startingPos.y + u * (startingPos.y + pauseHeight);
             // Interpolate the two linear interpolation points
 
-            transform.localScale = currentScale;
+            transform.position = currentPos;
         }
         else if (u >= 1 && u < 1 + PauseDur) // for first pause
         {
@@ -69,13 +77,13 @@ public class Earth : MonoBehaviour
         {
             v = v + sinEccentricity * (Mathf.Sin(v * Mathf.PI));
 
-            Vector3 currentScale = transform.localScale;
+            Vector3 currentPos = transform.position;
 
-            currentScale.y = (1 - v) * (startingPos.y + pauseHeight) + v * (startingPos.y + yMax);
+            currentPos.y = (1 - v) * (startingPos.y + pauseHeight) + v * (startingPos.y + yMax * .75f);
             // Interpolate the two linear interpolation points
             //startingPos.y is to ensure at different heights the player can use earth
 
-            transform.localScale = currentScale;
+            transform.position = currentPos;
         }
         else if (v >= TopTime && v < TopTime + Pause2Dur) // for second pause
         {

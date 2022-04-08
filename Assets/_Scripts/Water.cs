@@ -39,7 +39,10 @@ public class Water : MonoBehaviour
 
         yPoints[0] = startingPos.y;
         yPoints[2] = startingPos.y - 1;
-        yPoints[1] = startingPos.y + yMax;
+        yPoints[1] = startingPos.y + yMax / 2f;
+
+        Vector3 startingScale = transform.localScale;
+        startingScale.y = yMax + startingPos.y;
 
     }
 
@@ -51,11 +54,8 @@ public class Water : MonoBehaviour
 
         if (u > 1)
         {
-
-            // This Enemy_3 has finished its life
             Destroy(this.gameObject);
             return;
-
         }
 
 
@@ -68,11 +68,9 @@ public class Water : MonoBehaviour
 
         float p12 = (1 - u) * yPoints[1] + u * yPoints[2];
 
-
-        Vector3 newScale = transform.localScale;
-        newScale.y = (1 - u) * p01 + u * p12;
-        transform.localScale = newScale;
-
+        Vector3 newPos = transform.position;
+        newPos.y = (1 - u) * p01 + u * p12;
+        transform.position = newPos;
 
     }
     private void OnTriggerEnter(Collider col)
@@ -81,19 +79,14 @@ public class Water : MonoBehaviour
         GameObject hitGO = col.gameObject;
         if (hitGO.tag == "Environment_Int")
         {
-            Debug.Log("Interactible");
-
             Interactible hitGOScript = hitGO.GetComponent<Interactible>();
 
-            if (hitGOScript.canFlood && hitGOScript.isFlooded && Time.time - hitGOScript.intStart > duration)
+            if (hitGOScript == null)
             {
-                hitGOScript.isFlooded = false;
+                return;
             }
-            else if (hitGOScript.canFlood)
-            {
-                hitGOScript.isFlooded = true;
-
-            }
+            //floods the plane if there is a written flood
+            hitGOScript.Flooded();
         }
     }
 }
