@@ -8,7 +8,7 @@ public class SceneSwitch2 : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(2);
+            SceneManager.LoadScene("Level_02");
         }
     }
 }
