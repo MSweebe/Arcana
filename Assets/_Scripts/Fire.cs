@@ -21,8 +21,9 @@ public class Fire : MonoBehaviour
     {
         //find where the player is facing and positioned
         GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
         Vector3 playerPos = player.transform.position;
-        playerDir = player.transform.forward;
+        playerDir = camera.transform.forward;
 
         //set position of fireball off the ground
         playerPos.y += height * 2f;
