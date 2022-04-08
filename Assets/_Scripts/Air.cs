@@ -22,18 +22,21 @@ public class Air : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //find where the player is facing and positioned
+        // find where the player positioned
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         Vector3 playerPos = player.transform.position;
-        playerDir = player.transform.forward;
 
-        //set position of air off the ground
+        // get camera dir
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
+        playerDir = camera.transform.forward;
+
+        // set position of air off the ground
         playerPos.y += height;
 
-        //set position in front of player
+        // set position in front of player
         startingPos = playerPos + playerDir * distanceAhead;
 
-        //setting variables for Update
+        // setting variables for Update
         transform.position = startingPos;
         scale = transform.localScale;
         birthTime = Time.time;
@@ -42,7 +45,7 @@ public class Air : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //duration of action
+        // duration of action
         float u = (Time.time - birthTime) / duration;
 
         if (u > 1)
@@ -51,7 +54,7 @@ public class Air : MonoBehaviour
             return;
         }
 
-        //changing scale
+        // changing scale
 
         transform.localScale = scale * (1 + u) * size;
 

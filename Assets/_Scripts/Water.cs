@@ -24,10 +24,13 @@ public class Water : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //find where the player is facing and positioned
+        // find where the player is facing and positioned
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         Vector3 playerPos = player.transform.position;
-        playerDir = player.transform.forward;
+
+        // get where camera is facing
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
+        playerDir = camera.transform.forward;
 
 
         //set position in front of player
