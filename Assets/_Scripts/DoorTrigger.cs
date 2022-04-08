@@ -10,9 +10,6 @@ public class DoorTrigger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (interactible.onFire) 
-        {
-            door.SetActive(false);
-        }
+
     }
 }
