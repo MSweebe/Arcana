@@ -18,7 +18,7 @@ public class InteractBasin : Interactible
         Vector3 newScale = transform.localScale;
         newScale.y *= 1.05f;
         transform.localScale = newScale;
-        isFlooded = false;
+
     }
 
 }

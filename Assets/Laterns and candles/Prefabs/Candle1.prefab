@@ -127,9 +127,10 @@ GameObject:
   - component: {fileID: 4585060622950652}
   - component: {fileID: 33555718183585764}
   - component: {fileID: 23183915565728068}
-  - component: {fileID: -8390911232098022088}
-  - component: {fileID: -3470686789679721263}
-  - component: {fileID: 6353372437491678087}
+  - component: {fileID: 6842614204223786372}
+  - component: {fileID: 2935342467563667878}
+  - component: {fileID: 1007948235696629364}
+  - component: {fileID: -5642742326041744049}
   m_Layer: 8
   m_Name: Candle1
   m_TagString: Environment_Int
@@ -201,21 +202,19 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &-8390911232098022088
-CapsuleCollider:
+--- !u!114 &6842614204223786372
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1683205079487892}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.06073463
-  m_Height: 0.18624252
-  m_Direction: 1
-  m_Center: {x: 0.0026827473, y: 0.086561024, z: 0.001922382}
---- !u!54 &-3470686789679721263
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a9c566c39477440b69a07fab3aaf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!54 &2935342467563667878
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -231,7 +230,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6353372437491678087
+--- !u!136 &1007948235696629364
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683205079487892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.1
+  m_Height: 0.2
+  m_Direction: 1
+  m_Center: {x: 0.0020813216, y: 0.027667765, z: 0.00083499216}
+--- !u!114 &-5642742326041744049
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -243,8 +256,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a9c566c39477440b69a07fab3aaf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onFire: 0
-  canFlood: 0
-  isFlooded: 0
-  height: 0
-  intStart: -1

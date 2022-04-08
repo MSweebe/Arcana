@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 4160908596479848}
   - component: {fileID: 33127534802762060}
   - component: {fileID: 23767264455629678}
-  - component: {fileID: 2503564408995208919}
-  - component: {fileID: -326344174404571587}
-  - component: {fileID: 6052118143649551058}
+  - component: {fileID: 465882993160509773}
+  - component: {fileID: -2171263387744134876}
+  - component: {fileID: 1336488362874645831}
   m_Layer: 8
   m_Name: Candle2
   m_TagString: Environment_Int
@@ -85,21 +85,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &2503564408995208919
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1233580066405178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.06073463
-  m_Height: 0.18624252
-  m_Direction: 1
-  m_Center: {x: 0.0026827473, y: 0.086561024, z: 0.001922382}
---- !u!54 &-326344174404571587
+--- !u!54 &465882993160509773
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -115,7 +101,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &6052118143649551058
+--- !u!136 &-2171263387744134876
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233580066405178}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.1
+  m_Height: 0.18624252
+  m_Direction: 1
+  m_Center: {x: 0.0026827473, y: 0.086561024, z: 0.001922382}
+--- !u!114 &1336488362874645831
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,11 +127,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 02a9c566c39477440b69a07fab3aaf63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onFire: 0
-  canFlood: 0
-  isFlooded: 0
-  height: 0
-  intStart: -1
 --- !u!1 &1361831411495512
 GameObject:
   m_ObjectHideFlags: 0
