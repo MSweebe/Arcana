@@ -9,6 +9,15 @@ public class SceneSwitch0 : MonoBehaviour
     {
         SceneManager.LoadScene(0);
     }
+    
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(0);
+        }
+
+    }
 
     public void ExitFunction()
     {
