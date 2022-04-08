@@ -77,7 +77,7 @@ public class Air : MonoBehaviour
                 return;
             }
 
-            hitGOScript.PutOutFire();
+            hitGOScript.onFire = false;
 
         }
     }
