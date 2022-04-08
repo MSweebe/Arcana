@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 212146900235366794}
   - component: {fileID: 95797913424343696}
   - component: {fileID: 114967315212073566}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: red_flame_0 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -127,9 +127,12 @@ GameObject:
   - component: {fileID: 4585060622950652}
   - component: {fileID: 33555718183585764}
   - component: {fileID: 23183915565728068}
-  m_Layer: 0
+  - component: {fileID: -8390911232098022088}
+  - component: {fileID: -3470686789679721263}
+  - component: {fileID: 6353372437491678087}
+  m_Layer: 8
   m_Name: Candle1
-  m_TagString: Untagged
+  m_TagString: Environment_Int
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -198,3 +201,50 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!136 &-8390911232098022088
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683205079487892}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.06073463
+  m_Height: 0.18624252
+  m_Direction: 1
+  m_Center: {x: 0.0026827473, y: 0.086561024, z: 0.001922382}
+--- !u!54 &-3470686789679721263
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683205079487892}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &6353372437491678087
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1683205079487892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02a9c566c39477440b69a07fab3aaf63, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onFire: 0
+  canFlood: 0
+  isFlooded: 0
+  height: 0
+  intStart: -1
