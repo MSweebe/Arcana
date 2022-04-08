@@ -17,10 +17,22 @@ public class InteractCandle : Interactible
     public override void SetFire()
     {
         setSprite(true);
+        if (triggerObject != null)
+        {
+            Debug.Log("Set");
+            Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
+            GOTrigger.SetTrigger();
+        }
     }
     public override void PutOutFire()
     {
         setSprite(false);
+        if (triggerObject != null)
+        {
+            Debug.Log("UnSet");
+            Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
+            GOTrigger.ResetTrigger();
+        }
     }
 
     void setSprite(bool isActive)
@@ -32,7 +44,5 @@ public class InteractCandle : Interactible
             SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
             sr.enabled = isActive;
         }
-
     }
-
 }
