@@ -63,3 +63,6 @@ crashlytics-build.properties
 
 # Plastic SCM changes
 /.plastic/
+
+# Ignore Large Asset File
+[Aa]ssets/ASTROFISH_GAMES
