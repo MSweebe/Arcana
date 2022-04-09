@@ -14,6 +14,7 @@ public class ToggleElements : MonoBehaviour
 
     void Update()
     {
+
         //toggling four basic elements with number keys
         if (Input.GetKeyUp(KeyCode.Keypad1) || Input.GetKeyUp(KeyCode.Alpha1))
         {
@@ -23,6 +24,12 @@ public class ToggleElements : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2))
         {
             //Debug.Log("Earth Activated");
+            GameObject[] elementGO = GameObject.FindGameObjectsWithTag("Element");
+            if (elementGO.Length > 0)
+            {
+                Debug.Log("Not null");
+                return;
+            }
             Instantiate(earth);
         }
         if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3))
