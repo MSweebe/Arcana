@@ -9,6 +9,7 @@ TagManager:
   - Environment_NonInt
   - Collectibles
   - Floor
+  - PauseMenu
   layers:
   - Default
   - TransparentFX
