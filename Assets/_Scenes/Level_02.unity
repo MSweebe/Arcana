@@ -13090,6 +13090,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 18559997, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 470995232600591547, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4788274870320442241, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30
+      objectReference: {fileID: 0}
     - target: {fileID: 6196691178725194381, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_Name
       value: PlayerGroup
@@ -15214,8 +15226,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ae0f1ea9561474d89fabce34769688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactible: {fileID: 0}
-  door: {fileID: 433229524}
 --- !u!65 &433229526
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19823,16 +19833,16 @@ Transform:
   - {fileID: 17428549}
   - {fileID: 1580228736}
   - {fileID: 698101004}
+  - {fileID: 1762450859}
   - {fileID: 1828886974}
+  - {fileID: 491770784}
   - {fileID: 732798266}
   - {fileID: 830099324}
+  - {fileID: 900320581}
   - {fileID: 195481222}
-  - {fileID: 491770784}
   - {fileID: 1344375765}
   - {fileID: 221506408}
   - {fileID: 1370068109}
-  - {fileID: 1762450859}
-  - {fileID: 900320581}
   - {fileID: 1940102250}
   - {fileID: 1918184391}
   - {fileID: 246694826}
@@ -26612,8 +26622,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ae0f1ea9561474d89fabce34769688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactible: {fileID: 0}
-  door: {fileID: 693932620}
 --- !u!1001 &693979463
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27087,8 +27095,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2ae0f1ea9561474d89fabce34769688, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactible: {fileID: 0}
-  door: {fileID: 700224844}
 --- !u!65 &700224846
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -49039,11 +49045,11 @@ Transform:
   - {fileID: 535652129}
   - {fileID: 252290959}
   - {fileID: 1812213897}
-  - {fileID: 1163338970}
-  - {fileID: 57148876}
   - {fileID: 872180069}
-  - {fileID: 2008263437}
+  - {fileID: 57148876}
+  - {fileID: 1163338970}
   - {fileID: 1990302094}
+  - {fileID: 2008263437}
   - {fileID: 1340603894}
   - {fileID: 123001152}
   - {fileID: 1703798232}
@@ -69765,11 +69771,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cbb1561b139c04468d27fc9550a22d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  onFire: 0
-  canFlood: 0
-  isFlooded: 0
-  height: 0
-  intStart: -1
+  triggerObject: {fileID: 0}
 --- !u!1001 &1747040495
 PrefabInstance:
   m_ObjectHideFlags: 0

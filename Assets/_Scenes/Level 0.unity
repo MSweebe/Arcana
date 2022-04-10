@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44608772, g: 0.49585253, b: 0.57450414, a: 1}
+  m_IndirectSpecularColor: {r: 0.4460883, g: 0.49585378, b: 0.5745058, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -9468,7 +9468,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 470995232600591547, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 511427166546476228, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_Layer
@@ -9697,6 +9697,10 @@ PrefabInstance:
     - target: {fileID: 4732358956781723586, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4788274870320442241, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -30
       objectReference: {fileID: 0}
     - target: {fileID: 4946596636487474788, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_Layer
@@ -10233,6 +10237,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8027857349015069660, guid: 0eaa6c2f813c24e97a7669718ed6d78c, type: 3}
       propertyPath: m_Name
+      value: PauseMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 8027857349015069660, guid: 0eaa6c2f813c24e97a7669718ed6d78c, type: 3}
+      propertyPath: m_TagString
       value: PauseMenu
       objectReference: {fileID: 0}
     - target: {fileID: 8027857349015069661, guid: 0eaa6c2f813c24e97a7669718ed6d78c, type: 3}
