@@ -15,9 +15,23 @@ public class InteractBasin : Interactible
 {
     public override void Flooded()
     {
+        this.gameObject.SetActive(true);
         Vector3 newScale = transform.localScale;
         newScale.y *= 1.05f;
         transform.localScale = newScale;
+        Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
+        GOTrigger.ResetTrigger();
+    }
+
+    public override void UnFlood()
+    {
+        this.gameObject.SetActive(false);
+
+        if (triggerObject != null)
+        {
+            Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
+            GOTrigger.SetTrigger();
+        }
 
     }
 

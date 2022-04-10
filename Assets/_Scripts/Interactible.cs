@@ -5,10 +5,13 @@ using UnityEngine;
 public class Interactible : MonoBehaviour
 {
     [Header("Set in Inspector")]
+
     public GameObject triggerObject;
 
 
     public virtual void Flooded() { }
+
+    public virtual void UnFlood() { }
 
     public virtual void SetFire() { }
 
