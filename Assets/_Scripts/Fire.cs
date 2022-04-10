@@ -16,13 +16,14 @@ public class Fire : MonoBehaviour
     Vector3 startingPos;
     Vector3 playerDir;
 
-    // Start is called before the first frame update
+
     void Start()
     {
         //find where the player is facing and positioned
         GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
         Vector3 playerPos = player.transform.position;
-        playerDir = player.transform.forward;
+        playerDir = camera.transform.forward;
 
         //set position of fireball off the ground
         playerPos.y += height * 2f;
@@ -53,22 +54,15 @@ public class Fire : MonoBehaviour
         GameObject hitGO = col.gameObject;
         if (hitGO.tag == "Environment_Int")
         {
-            // Debug.Log("Interactible");
-
             Interactible hitGOScript = hitGO.GetComponent<Interactible>();
-            //Debug.Log("onfire" + hitGOScript.onFire);
+
             if (hitGOScript == null)
             {
                 return;
             }
-            if (hitGOScript.onFire && Time.time - hitGOScript.intStart > duration)
-            {
-                hitGOScript.onFire = false;
-            }
-            else
-            {
-                hitGOScript.onFire = true;
-            }
+
+
+            hitGOScript.SetFire();
         }
     }
 }
