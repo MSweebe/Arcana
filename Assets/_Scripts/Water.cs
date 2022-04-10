@@ -89,7 +89,7 @@ public class Water : MonoBehaviour
                 return;
             }
             //floods the plane if there is a written flood
-            hitGOScript.Flooded();
+            hitGOScript.UnFlood();
         }
     }
 }
