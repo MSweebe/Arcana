@@ -15,7 +15,7 @@ public class ToggleElements : MonoBehaviour
     void Update()
     {
         GameObject pauseMenu = GameObject.FindGameObjectWithTag("PauseMenu");
-        if(pauseMenu.GetComponent<PauseMenu>().isPaused)
+        if(pauseMenu!= null && pauseMenu.GetComponent<PauseMenu>().isPaused)
             return;
 
         //toggling four basic elements with number keys
