@@ -7999,24 +7999,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1505292576 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6196691179209008128, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
-  m_PrefabInstance: {fileID: 1828535460}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1505292581
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1505292576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9abcadd3308312e49b5a48caae493915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  counttxt: {fileID: 983205288}
 --- !u!1 &1508782907
 GameObject:
   m_ObjectHideFlags: 0
@@ -9588,6 +9570,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1021958392087850694, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: counttxt
+      value: 
+      objectReference: {fileID: 983205288}
     - target: {fileID: 1083080728518556419, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_Layer
       value: 6
