@@ -65,4 +65,5 @@ crashlytics-build.properties
 /.plastic/
 
 # Ignore Large Asset File
-[Aa]ssets/ASTROFISH_GAMES
+#[Aa]ssets/ASTROFISH_GAMES
+/[Aa]ssets/ASTROFISH_GAMES/
