@@ -12,9 +12,4 @@ public class Skybox_Handler : MonoBehaviour
         RenderSettings.skybox = element;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
