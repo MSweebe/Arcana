@@ -35,7 +35,6 @@ public class Fire : MonoBehaviour
         birthTime = Time.time;
     }
 
-    // Update is called once per frame
 
     void FixedUpdate()
     {

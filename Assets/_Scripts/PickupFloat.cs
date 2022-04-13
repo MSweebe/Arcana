@@ -20,7 +20,6 @@ public class PickupFloat : MonoBehaviour
         posOffset = transform.position;
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
         // Spin object around Y-Axis
