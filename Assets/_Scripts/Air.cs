@@ -42,8 +42,7 @@ public class Air : MonoBehaviour
         birthTime = Time.time;
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
         // duration of action
         float u = (Time.time - birthTime) / duration;

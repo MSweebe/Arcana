@@ -35,8 +35,8 @@ public class Fire : MonoBehaviour
         birthTime = Time.time;
     }
 
-    // Update is called once per frame
-    void Update()
+
+    void FixedUpdate()
     {
         float u = (Time.time - birthTime) / duration;
         if (u > 1)

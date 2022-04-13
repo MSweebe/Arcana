@@ -19,7 +19,6 @@ public class InteractCandle : Interactible
         setSprite(true);
         if (triggerObject != null)
         {
-            Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
             GOTrigger.SetTrigger();
         }
     }
@@ -28,7 +27,6 @@ public class InteractCandle : Interactible
         setSprite(false);
         if (triggerObject != null)
         {
-            Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
             GOTrigger.ResetTrigger();
         }
     }

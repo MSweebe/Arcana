@@ -19,7 +19,6 @@ public class InteractBasin : Interactible
         Vector3 newScale = transform.localScale;
         newScale.y *= 1.05f;
         transform.localScale = newScale;
-        Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
         GOTrigger.ResetTrigger();
     }
 
@@ -29,7 +28,6 @@ public class InteractBasin : Interactible
 
         if (triggerObject != null)
         {
-            Trigger GOTrigger = triggerObject.GetComponent<Trigger>();
             GOTrigger.SetTrigger();
         }
 

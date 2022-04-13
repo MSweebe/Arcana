@@ -10,12 +10,16 @@ public class ToggleElements : MonoBehaviour
     public GameObject water;
     public GameObject earth;
     public GameObject air;
+    public GameObject pauseMenu;
 
-    // Update is called once per frame
+    public void Start()
+    {
+        pauseMenu = GameObject.FindGameObjectWithTag("PauseMenu");
+    }
     void Update()
     {
-        GameObject pauseMenu = GameObject.FindGameObjectWithTag("PauseMenu");
-        if(pauseMenu!= null && pauseMenu.GetComponent<PauseMenu>().isPaused)
+
+        if (pauseMenu != null && pauseMenu.GetComponent<PauseMenu>().isPaused)
             return;
 
         //toggling four basic elements with number keys
