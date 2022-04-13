@@ -6,7 +6,6 @@ public class TriggerCollectible : Trigger
 {
     public override void SetTrigger()
     {
-        Debug.Log("Setting Active");
         this.gameObject.SetActive(true);
     }
     public override void ResetTrigger()
