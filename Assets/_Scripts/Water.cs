@@ -50,7 +50,7 @@ public class Water : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
 
         float u = (Time.time - birthTime) / duration;

@@ -13,17 +13,18 @@ public class PickupHandler : MonoBehaviour
     void Start()
     {
         count = 0;
-        
+
         UpdateCount();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
-    private void OnTriggerEnter(Collider other) {
-        if (other.gameObject.CompareTag("Collectibles")) 
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("Collectibles"))
         {
             other.gameObject.SetActive(false);
             count++;

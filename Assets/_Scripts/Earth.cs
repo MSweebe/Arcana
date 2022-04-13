@@ -48,9 +48,8 @@ public class Earth : MonoBehaviour
 
         transform.localScale = scale;
     }
-
     // Update is called once per frame
-    void Update()
+   void FixedUpdate()
     {
         //duration of action Bezier
         float u = (Time.time - phase1Start) / Step1Dur;
