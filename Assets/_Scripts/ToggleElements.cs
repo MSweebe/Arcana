@@ -10,8 +10,8 @@ public class ToggleElements : MonoBehaviour
     public GameObject water;
     public GameObject earth;
     public GameObject air;
-    // Update is called once per frame
 
+    // Update is called once per frame
     void Update()
     {
         GameObject pauseMenu = GameObject.FindGameObjectWithTag("PauseMenu");
@@ -23,31 +23,30 @@ public class ToggleElements : MonoBehaviour
         {
             Instantiate(fire);
         }
-        if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2))
+        else if (Input.GetKeyDown(KeyCode.Keypad2) || Input.GetKeyDown(KeyCode.Alpha2))
         {
-
+            // prevent spam of earth
             GameObject[] elementGO = GameObject.FindGameObjectsWithTag("Element");
             if (elementGO.Length > 0)
             {
                 return;
             }
             Instantiate(earth);
+
         }
-        if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3))
+        else if (Input.GetKeyDown(KeyCode.Keypad3) || Input.GetKeyDown(KeyCode.Alpha3))
         {
 
             Instantiate(water);
         }
-        if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4))
+        else if (Input.GetKeyDown(KeyCode.Keypad4) || Input.GetKeyDown(KeyCode.Alpha4))
         {
 
             Instantiate(air);
         }
-        //testing purposes
-        if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else
         {
-            GameObject player = GameObject.FindGameObjectWithTag("Player");
-            player.transform.rotation *= Quaternion.Euler(0, 5f, 0);
+            return;
         }
     }
 }
