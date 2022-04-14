@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 33000011749951438}
   - component: {fileID: 23000010446466874}
   - component: {fileID: 64000010021942574}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RHE_CaveTop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,9 +105,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4000012795208846}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RHEF_Cave
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 33000012414378252}
   - component: {fileID: 23000013946924542}
   - component: {fileID: 64000010400601612}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: RHE_Cave
   m_TagString: Untagged
   m_Icon: {fileID: 0}

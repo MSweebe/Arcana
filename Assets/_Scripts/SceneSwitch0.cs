@@ -7,14 +7,14 @@ public class SceneSwitch0 : MonoBehaviour
 {
     public void LoadScene()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("Level 0");
     }
     
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene("Level 0");
         }
 
     }

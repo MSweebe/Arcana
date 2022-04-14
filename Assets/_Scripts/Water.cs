@@ -24,10 +24,13 @@ public class Water : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //find where the player is facing and positioned
+        // find where the player is facing and positioned
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         Vector3 playerPos = player.transform.position;
-        playerDir = player.transform.forward;
+
+        // get where camera is facing
+        GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
+        playerDir = camera.transform.forward;
 
 
         //set position in front of player
@@ -39,7 +42,10 @@ public class Water : MonoBehaviour
 
         yPoints[0] = startingPos.y;
         yPoints[2] = startingPos.y - 1;
-        yPoints[1] = startingPos.y + yMax;
+        yPoints[1] = startingPos.y + yMax / 2f;
+
+        Vector3 startingScale = transform.localScale;
+        startingScale.y = yMax + startingPos.y;
 
     }
 
@@ -51,11 +57,8 @@ public class Water : MonoBehaviour
 
         if (u > 1)
         {
-
-            // This Enemy_3 has finished its life
             Destroy(this.gameObject);
             return;
-
         }
 
 
@@ -68,11 +71,9 @@ public class Water : MonoBehaviour
 
         float p12 = (1 - u) * yPoints[1] + u * yPoints[2];
 
-
-        Vector3 newScale = transform.localScale;
-        newScale.y = (1 - u) * p01 + u * p12;
-        transform.localScale = newScale;
-
+        Vector3 newPos = transform.position;
+        newPos.y = (1 - u) * p01 + u * p12;
+        transform.position = newPos;
 
     }
     private void OnTriggerEnter(Collider col)
@@ -81,19 +82,14 @@ public class Water : MonoBehaviour
         GameObject hitGO = col.gameObject;
         if (hitGO.tag == "Environment_Int")
         {
-            Debug.Log("Interactible");
-
             Interactible hitGOScript = hitGO.GetComponent<Interactible>();
 
-            if (hitGOScript.canFlood && hitGOScript.isFlooded && Time.time - hitGOScript.intStart > duration)
+            if (hitGOScript == null)
             {
-                hitGOScript.isFlooded = false;
+                return;
             }
-            else if (hitGOScript.canFlood)
-            {
-                hitGOScript.isFlooded = true;
-
-            }
+            //floods the plane if there is a written flood
+            hitGOScript.UnFlood();
         }
     }
 }
