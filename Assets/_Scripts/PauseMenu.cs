@@ -32,6 +32,7 @@ public class PauseMenu : MonoBehaviour
         isPaused = true;
         camera = GameObject.FindGameObjectWithTag("Camera").GetComponent<CameraManager>();
         camera.isPaused = true;
+        Cursor.visible = true;
         
     }
 
@@ -40,6 +41,7 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         isPaused = false;
         camera.isPaused = false;
+        Cursor.visible = false;
     }
     public void GoToMainMenu() {
         Time.timeScale = 1f;
