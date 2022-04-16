@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44608772, g: 0.49585253, b: 0.57450414, a: 1}
+  m_IndirectSpecularColor: {r: 0.4460883, g: 0.49585378, b: 0.5745058, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -134,6 +134,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
       value: 103
@@ -191,9 +199,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -304,6 +328,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_LargeTorch
       objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
 --- !u!1001 &88606169
@@ -317,9 +349,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_06
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013699881090, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014048546106, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_LocalScale.x
@@ -386,9 +442,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_LowRockMedium
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalPosition.x
@@ -460,7 +524,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &121123363
 PrefabInstance:
@@ -473,9 +537,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_RockMediumA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013218097322, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013218097322, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_LocalScale.x
@@ -566,7 +638,7 @@ Transform:
   - {fileID: 1018732452}
   - {fileID: 319919597}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &158450215
 PrefabInstance:
@@ -623,6 +695,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &194952712
@@ -638,7 +718,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -693,9 +773,33 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013699881090, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014048546106, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_LocalScale.x
@@ -760,9 +864,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 207846700}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (2) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -779,7 +883,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 69
+  m_RootOrder: 72
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &209476596
 GameObject:
@@ -790,10 +894,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 209476597}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (2) (Missing Prefab with
     guid: b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -810,7 +914,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 124
+  m_RootOrder: 127
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &216391384
 GameObject:
@@ -821,9 +925,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 216391385}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (4) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -840,7 +944,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 94
+  m_RootOrder: 97
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &234061377
 PrefabInstance:
@@ -849,13 +953,229 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8505508820956069811, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8366311139405200400, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8259090401837493156, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7979601401784692094, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7845613667057310933, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7660828442351061628, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7561974818292093654, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7389522771803242254, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7085029479410389246, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6993414747521632548, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6756117477977683753, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6563325329394562407, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6428590915927185568, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6195352087712739538, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5899568629877720675, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5699521247788185606, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5248973628219885481, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5211616977067575334, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4736862181016870992, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4151432553734934169, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4049250286881637712, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4025305091282042173, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3976331052572106981, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3878155373967591969, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3435657125234464212, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3413910667383733554, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3283342824320820880, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3256656905112600145, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -2615171524542925016, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1488750603486876189, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028821601707254872, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1014255805040205117, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -829617598302344591, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -645430010810130760, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -381777625441254097, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -160765056040399631, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -65032641012843871, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3995710872945742, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 35385268427569749, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 364049253228500729, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 398340008860237205, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 499194406930072568, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271242459351239521, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436336906033462128, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316902650144950314, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317420112173156820, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338631335927158832, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443621387270372954, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720066286849765224, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016278563724561299, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054107452250946770, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923977464093827534, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_Name
       value: Building_Chimney (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalScale.z
@@ -901,6 +1221,62 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3981560940967041366, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941000224734, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941494186315, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941509805868, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942048608220, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942208022187, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942284536482, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942504172155, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4299643639539439818, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422493845291129322, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551499456155427381, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4624350271350153701, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4644176898751654840, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705480485136064590, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5431137445685120539, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.348
@@ -928,6 +1304,18 @@ PrefabInstance:
     - target: {fileID: 5431137445685120539, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -44.025
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466149144388394916, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899161931756187439, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706077943966246232, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7074272810175243860, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalPosition.x
@@ -957,6 +1345,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -40.251
       objectReference: {fileID: 0}
+    - target: {fileID: 7198239954008000087, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406478833643243475, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442302100239916184, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463244463455858904, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705575217677062251, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180174834787727277, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409495703414933219, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596148670084591439, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683770791326634625, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
 --- !u!1001 &252397887
@@ -969,6 +1393,14 @@ PrefabInstance:
     - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_Name
       value: Medieval_Masonary_WoodLarge_StrongSupportColumn (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
@@ -1025,9 +1457,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 262063027}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (7) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1044,7 +1476,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 63
+  m_RootOrder: 66
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &262371688
 PrefabInstance:
@@ -1056,6 +1488,14 @@ PrefabInstance:
     - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
@@ -1110,13 +1550,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1000010874394890, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1000011949594382, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
       propertyPath: m_Name
       value: Rock_03
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011949594382, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011949594382, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000012074862460, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013742746218, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013308252972, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4000013308252972, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1172,6 +1632,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+--- !u!1001 &263179458
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -46.63802
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.0000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.0127883
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790335378488877487, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_Name
+      value: Boundary (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
 --- !u!1001 &264821755
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1227,6 +1744,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &290725648
@@ -1240,9 +1765,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_RockMediumA
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013218097322, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013218097322, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1295,10 +1828,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 292866261}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (Missing Prefab with guid:
     b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1315,7 +1848,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 82
+  m_RootOrder: 85
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &304699100
 PrefabInstance:
@@ -1372,6 +1905,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_LoosePlank_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
 --- !u!1 &305151273
@@ -1383,9 +1924,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 305151274}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_LoosePlank_01 (1) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1402,7 +1943,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 74
+  m_RootOrder: 77
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &317470711
 PrefabInstance:
@@ -1458,6 +1999,14 @@ PrefabInstance:
     - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_LoosePlank_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
@@ -1598,6 +2147,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &341629211
@@ -1655,6 +2212,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &359204436
@@ -1668,9 +2233,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_RockMediumB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010932500912, guid: 46b49871773764447a894bbb1c459502, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932500912, guid: 46b49871773764447a894bbb1c459502, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 73
       objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_LocalScale.y
@@ -1727,9 +2300,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 384185749}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_LoosePlank_01 (5) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1746,7 +2319,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 85
+  m_RootOrder: 88
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &402289254
 PrefabInstance:
@@ -1802,6 +2375,14 @@ PrefabInstance:
     - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
@@ -1860,6 +2441,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_ArowRailing_Long
       objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490792a65283574e9fcdd778cba9216, type: 3}
 --- !u!1 &409278656
@@ -1871,9 +2460,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 409278657}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (23) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1890,7 +2479,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 110
+  m_RootOrder: 113
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &411546723
 PrefabInstance:
@@ -1903,9 +2492,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1958,10 +2563,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 423241777}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_ArowRailing_Long (6) (Missing Prefab with guid:
     e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1978,8 +2583,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 81
+  m_RootOrder: 84
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &424674429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+  m_PrefabInstance: {fileID: 1557057404}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &424674432
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424674429}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: 476d7e24f53ccf641805646d05f61bde, type: 3}
 --- !u!1001 &429948813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2035,6 +2659,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &435641339
@@ -2050,7 +2682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2115,7 +2747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2169,6 +2801,14 @@ PrefabInstance:
     - target: {fileID: 6953003461778646454, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
       propertyPath: m_Name
       value: Medieval_Foliage_Fern_Large
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953003461778646454, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6953003461778646454, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 8801589038867150782, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
       propertyPath: m_RootOrder
@@ -2283,6 +2923,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &470332742
@@ -2340,6 +2988,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &474486790
@@ -2353,9 +3009,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_LocalScale.x
@@ -2420,9 +3084,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 486781650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (10) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2439,7 +3103,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 118
+  m_RootOrder: 121
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &493751565
 PrefabInstance:
@@ -2496,6 +3160,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Foliage_IvyVines_ShortHoz (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6487716144170632422, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487716144170632422, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
 --- !u!1001 &524600920
@@ -2509,9 +3181,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_LowRockMedium (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 46
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalScale.x
@@ -2576,9 +3256,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 532808783}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (7) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2595,7 +3275,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 127
+  m_RootOrder: 130
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &538896591
 PrefabInstance:
@@ -2651,6 +3331,14 @@ PrefabInstance:
     - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
@@ -2709,6 +3397,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_LargeTorch (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
 --- !u!1 &547025548
@@ -2720,9 +3416,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 547025549}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_LoosePlank_01 (6) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2739,7 +3435,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 120
+  m_RootOrder: 123
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &547376281
 GameObject:
@@ -2750,9 +3446,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 547376282}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (13) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2769,7 +3465,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 125
+  m_RootOrder: 128
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &553073241
 PrefabInstance:
@@ -2826,6 +3522,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &559341322
@@ -2857,7 +3561,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &563998000
 PrefabInstance:
@@ -2870,9 +3574,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2928,6 +3640,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+--- !u!1001 &567365133
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -40.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 59.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790335378488877487, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_Name
+      value: Boundary (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
 --- !u!1001 &580338086
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2941,7 +3710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1330124519747720953, guid: f51bea269c247634fb5e9ff4904221d9, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 1330124519747720953, guid: f51bea269c247634fb5e9ff4904221d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3040,6 +3809,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &590309084
@@ -3051,10 +3828,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 590309085}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (1) (Missing Prefab with
     guid: b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3071,7 +3848,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 78
+  m_RootOrder: 81
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &602488868
 GameObject:
@@ -3166,7 +3943,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 2.7, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 0, y: -150.848, z: 0}
 --- !u!1 &617194086
 GameObject:
@@ -3177,9 +3954,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 617194087}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_LoosePlank_01 (4) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3196,7 +3973,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 121
+  m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &638757003
 GameObject:
@@ -3207,9 +3984,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 638757004}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Foliage_IvyVines_ShortHoz (Missing Prefab with guid: e7e4c40bc12a44e48bdf2f88608e3bef)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3226,7 +4003,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 105
+  m_RootOrder: 108
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &655941552
 PrefabInstance:
@@ -3238,6 +4015,14 @@ PrefabInstance:
     - target: {fileID: 856365891135860608, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
       propertyPath: m_Name
       value: Medieval_Chimney_Small (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 856365891135860608, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 856365891135860608, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
       propertyPath: m_RootOrder
@@ -3300,9 +4085,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 52
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -3452,7 +4253,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 33
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &681285126
 PrefabInstance:
@@ -3467,7 +4268,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012795208846, guid: e318266f60803d548a4b409b52b39d8d, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4000012795208846, guid: e318266f60803d548a4b409b52b39d8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3520,9 +4321,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 695739322}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (21) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3539,7 +4340,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 100
+  m_RootOrder: 103
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -3632,7 +4433,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 30
   m_LocalEulerAnglesHint: {x: 51.393, y: -52.602, z: -12.919}
 --- !u!1001 &718920750
 PrefabInstance:
@@ -3645,9 +4446,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_GenericCliffA (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_RootOrder
-      value: 37
+      value: 39
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3746,6 +4555,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Foliage_IvyVines_ShortHoz
       objectReference: {fileID: 0}
+    - target: {fileID: 6487716144170632422, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6487716144170632422, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
 --- !u!1001 &745166070
@@ -3761,7 +4578,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3898,7 +4715,7 @@ Transform:
   m_LocalScale: {x: 1.5, y: 2.7, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: -150.848, z: 0}
 --- !u!1 &766009978
 GameObject:
@@ -3909,9 +4726,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 766009979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (2) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3928,7 +4745,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 99
+  m_RootOrder: 102
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &779093271 stripped
 GameObject:
@@ -3995,8 +4812,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_LoosePlank_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+--- !u!1 &789441847 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013699881090, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+  m_PrefabInstance: {fileID: 1031458684}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &789441851
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789441847}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: 476d7e24f53ccf641805646d05f61bde, type: 3}
 --- !u!1001 &793148605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4121,6 +4965,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &839816563
@@ -4132,9 +4984,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 839816564}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (20) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4151,7 +5003,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 89
+  m_RootOrder: 92
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &840425209
 PrefabInstance:
@@ -4164,9 +5016,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4265,6 +5133,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &885483014
@@ -4322,6 +5198,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_LargeTorch (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
 --- !u!1 &887271857
@@ -4333,9 +5217,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 887271858}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (11) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4352,7 +5236,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 122
+  m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &891427789
 GameObject:
@@ -4363,10 +5247,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 891427790}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_ArowRailing_Long (7) (Missing Prefab with guid:
     e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4383,8 +5267,27 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 66
+  m_RootOrder: 69
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &894097907 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+  m_PrefabInstance: {fileID: 88606169}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &894097911
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894097907}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: 476d7e24f53ccf641805646d05f61bde, type: 3}
 --- !u!1001 &908753210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4439,6 +5342,14 @@ PrefabInstance:
     - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
@@ -4536,7 +5447,7 @@ Transform:
   m_LocalScale: {x: 0.49272, y: 1, z: 0.4896189}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 131
+  m_RootOrder: 134
   m_LocalEulerAnglesHint: {x: 0, y: -9.235, z: -90}
 --- !u!1 &950285942
 GameObject:
@@ -4547,9 +5458,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 950285943}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (18) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4566,7 +5477,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 93
+  m_RootOrder: 96
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &953971343
 PrefabInstance:
@@ -4622,6 +5533,14 @@ PrefabInstance:
     - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
@@ -4680,6 +5599,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &957674738
@@ -4691,9 +5618,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 957674739}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (5) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4710,7 +5637,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 96
+  m_RootOrder: 99
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &977765303
 GameObject:
@@ -4721,9 +5648,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 977765304}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_LoosePlank_01 (3) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4740,7 +5667,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 76
+  m_RootOrder: 79
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &983205288 stripped
 MonoBehaviour:
@@ -4763,6 +5690,14 @@ PrefabInstance:
     - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
@@ -4821,9 +5756,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_GenericCliffB
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011070547914, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011070547914, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4922,6 +5865,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &1009831411
@@ -4978,6 +5929,14 @@ PrefabInstance:
     - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_Name
       value: Medieval_IronFixtures_ArowRailing_Long (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490792a65283574e9fcdd778cba9216, type: 3}
@@ -5200,6 +6159,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1031073124
@@ -5211,9 +6178,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1031073125}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (1) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5230,7 +6197,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 97
+  m_RootOrder: 100
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1031458684
 PrefabInstance:
@@ -5243,9 +6210,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_06 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013699881090, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014048546106, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5300,9 +6287,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_GenericCliffA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 41
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5357,9 +6352,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -5424,9 +6435,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1049763528}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (14) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5443,7 +6454,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 79
+  m_RootOrder: 82
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1064896336
 PrefabInstance:
@@ -5500,6 +6511,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &1073774926
@@ -5513,9 +6532,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -5582,6 +6617,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Chimney_Small
       objectReference: {fileID: 0}
+    - target: {fileID: 856365891135860608, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 856365891135860608, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -5643,9 +6686,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_RockMediumB
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010932500912, guid: 46b49871773764447a894bbb1c459502, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010932500912, guid: 46b49871773764447a894bbb1c459502, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_LocalScale.y
@@ -5748,6 +6799,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1172356057
@@ -5844,7 +6903,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
+  m_RootOrder: 43
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1178414522
 GameObject:
@@ -5855,9 +6914,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1178414523}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (6) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5874,7 +6933,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_RootOrder: 78
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1190756620
 PrefabInstance:
@@ -5887,9 +6946,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -5954,10 +7029,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1193674305}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_ArowRailing_Long (1) (Missing Prefab with guid:
     e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5974,7 +7049,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 70
+  m_RootOrder: 73
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1198500709
 GameObject:
@@ -5985,9 +7060,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1198500710}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_LargeTorch (2) (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6004,7 +7079,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 80
+  m_RootOrder: 83
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1200413235
 PrefabInstance:
@@ -6017,9 +7092,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_LowRockMedium (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6084,7 +7167,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6137,9 +7220,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1213698781}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Chimney_Small (Missing Prefab with guid: a2c0c3aca65defd4d9d259916215d53d)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6156,7 +7239,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 92
+  m_RootOrder: 95
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1244528523
 PrefabInstance:
@@ -6169,9 +7252,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_GenericCliffB (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011070547914, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011070547914, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6270,6 +7361,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1264082379
@@ -6366,7 +7465,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1276219425
 PrefabInstance:
@@ -6423,6 +7522,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &1280442243
@@ -6435,6 +7542,14 @@ PrefabInstance:
     - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
@@ -6537,6 +7652,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1289161010
@@ -6548,9 +7671,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1289161011}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (12) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6567,7 +7690,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 107
+  m_RootOrder: 110
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1289432259
 PrefabInstance:
@@ -6579,6 +7702,14 @@ PrefabInstance:
     - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
@@ -6635,9 +7766,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1303181731}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (5) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6654,7 +7785,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 86
+  m_RootOrder: 89
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1311447871
 GameObject:
@@ -6665,9 +7796,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1311447872}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (1) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6684,7 +7815,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 119
+  m_RootOrder: 122
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1314782975
 GameObject:
@@ -6695,9 +7826,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1314782976}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Foliage_Fern_Large (Missing Prefab with guid: 2fc687804e64b5143a99ccd10efc0aef)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6714,7 +7845,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 114
+  m_RootOrder: 117
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1322479275
 GameObject:
@@ -6810,7 +7941,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1340195573
 GameObject:
@@ -6905,7 +8036,7 @@ RectTransform:
   m_Children:
   - {fileID: 779093272}
   m_Father: {fileID: 0}
-  m_RootOrder: 130
+  m_RootOrder: 133
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -6921,10 +8052,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1341147719}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_ArowRailing_Long (4) (Missing Prefab with guid:
     e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6941,7 +8072,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 65
+  m_RootOrder: 68
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1355777505
 PrefabInstance:
@@ -6998,6 +8129,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_LoosePlank_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
 --- !u!1001 &1371229977
@@ -7007,13 +8146,229 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8505508820956069811, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8366311139405200400, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8259090401837493156, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7979601401784692094, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7845613667057310933, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7660828442351061628, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7561974818292093654, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7389522771803242254, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7085029479410389246, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6993414747521632548, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6756117477977683753, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6563325329394562407, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6428590915927185568, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6195352087712739538, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5899568629877720675, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5699521247788185606, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5248973628219885481, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5211616977067575334, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4736862181016870992, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4151432553734934169, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4049250286881637712, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4025305091282042173, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3976331052572106981, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3878155373967591969, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3435657125234464212, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3413910667383733554, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3283342824320820880, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3256656905112600145, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -2615171524542925016, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1488750603486876189, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028821601707254872, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1014255805040205117, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -829617598302344591, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -645430010810130760, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -381777625441254097, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -160765056040399631, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -65032641012843871, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3995710872945742, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 35385268427569749, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 364049253228500729, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 398340008860237205, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 499194406930072568, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271242459351239521, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436336906033462128, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316902650144950314, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317420112173156820, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338631335927158832, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443621387270372954, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720066286849765224, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016278563724561299, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054107452250946770, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923977464093827534, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_Name
       value: Building_Chimney (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7055,6 +8410,110 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3981560940967041366, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941000224734, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941494186315, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941509805868, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942048608220, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942208022187, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942284536482, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942504172155, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4299643639539439818, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422493845291129322, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551499456155427381, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4624350271350153701, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4644176898751654840, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705480485136064590, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466149144388394916, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899161931756187439, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706077943966246232, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198239954008000087, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406478833643243475, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442302100239916184, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463244463455858904, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705575217677062251, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180174834787727277, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409495703414933219, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596148670084591439, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683770791326634625, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
 --- !u!1001 &1379317413
@@ -7067,6 +8526,14 @@ PrefabInstance:
     - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_Name
       value: Medieval_Masonary_WoodLarge_StrongSupportColumn
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
@@ -7173,6 +8640,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_ArowRailing_Long (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490792a65283574e9fcdd778cba9216, type: 3}
 --- !u!1 &1418833002 stripped
@@ -7216,9 +8691,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock3
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_LocalScale.x
@@ -7313,9 +8796,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1439139397}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_LoosePlank_01 (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7332,7 +8815,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 61
+  m_RootOrder: 64
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1441494201
 GameObject:
@@ -7343,9 +8826,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1441494202}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_ArowRailing_Long (Missing Prefab with guid: e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7362,7 +8845,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 116
+  m_RootOrder: 119
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1445280423
 PrefabInstance:
@@ -7493,6 +8976,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_LargeTorch (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
 --- !u!1 &1448680536
@@ -7589,7 +9080,7 @@ Transform:
   m_LocalScale: {x: 0.49272, y: 1, z: 0.4896189}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 134
+  m_RootOrder: 137
   m_LocalEulerAnglesHint: {x: 0, y: 2.317, z: -90}
 --- !u!1001 &1470450826
 PrefabInstance:
@@ -7646,6 +9137,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1479369005
@@ -7694,6 +9193,25 @@ MonoBehaviour:
   prefab: {fileID: 4908765312130676, guid: d0fef57aa8c0772448a3a57390d3c153, type: 3}
   range: 0
   parent: {fileID: 149337166}
+--- !u!1 &1482258788 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+  m_PrefabInstance: {fileID: 196791525}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1482258792
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482258788}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300006, guid: 476d7e24f53ccf641805646d05f61bde, type: 3}
 --- !u!1001 &1483513851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7704,6 +9222,14 @@ PrefabInstance:
     - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_Name
       value: Medieval_Masonary_WoodLarge_StrongSupportColumn (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
@@ -7806,6 +9332,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1501328732
@@ -7817,9 +9351,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1501328733}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (22) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7836,7 +9370,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 108
+  m_RootOrder: 111
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1508782907
 GameObject:
@@ -7902,7 +9436,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 135
+  m_RootOrder: 138
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1510312266
 GameObject:
@@ -7998,7 +9532,7 @@ Transform:
   m_LocalScale: {x: 0.49272, y: 1, z: 0.4896189}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 133
+  m_RootOrder: 136
   m_LocalEulerAnglesHint: {x: 0, y: 11.29, z: -90}
 --- !u!1 &1513835235
 GameObject:
@@ -8009,9 +9543,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1513835236}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8028,7 +9562,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 67
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1522700979
 GameObject:
@@ -8039,9 +9573,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1522700980}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (9) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8058,7 +9592,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 103
+  m_RootOrder: 106
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1524612351
 GameObject:
@@ -8102,9 +9636,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_RockMediumA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000013218097322, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013218097322, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_LocalScale.x
@@ -8254,7 +9796,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1540837947
 PrefabInstance:
@@ -8311,8 +9853,35 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_LoosePlank_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+--- !u!1 &1543508753 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1000010874394890, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
+  m_PrefabInstance: {fileID: 263092828}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1543508757
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543508753}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300004, guid: 48320e7576ce0664eb501ebbd6c815da, type: 3}
 --- !u!1001 &1557057404
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8324,9 +9893,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011143488790, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013438155918, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013699881090, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014048546106, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8381,9 +9970,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -8450,6 +10047,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
       value: 102
@@ -8505,9 +10110,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1603202698}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (19) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8524,7 +10129,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 90
+  m_RootOrder: 93
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1613919909
 PrefabInstance:
@@ -8537,9 +10142,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 49
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8638,6 +10259,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_LoosePlank_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
 --- !u!1 &1632451980
@@ -8649,9 +10278,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1632451981}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_LargeTorch (1) (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8668,7 +10297,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 109
+  m_RootOrder: 112
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1641951525
 GameObject:
@@ -8679,9 +10308,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1641951526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Chimney_Small (1) (Missing Prefab with guid: a2c0c3aca65defd4d9d259916215d53d)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8698,7 +10327,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 106
+  m_RootOrder: 109
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672037028
 GameObject:
@@ -8755,9 +10384,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1674531013}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (3) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8774,7 +10403,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 115
+  m_RootOrder: 118
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1677309736
 PrefabInstance:
@@ -8787,9 +10416,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_GenericCliffA (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 44
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8842,9 +10479,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1680379856}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Foliage_IvyVines_ShortHoz (1) (Missing Prefab with guid: e7e4c40bc12a44e48bdf2f88608e3bef)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8861,7 +10498,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 111
+  m_RootOrder: 114
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1706348283
 PrefabInstance:
@@ -8874,9 +10511,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8927,13 +10580,229 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8505508820956069811, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8366311139405200400, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8259090401837493156, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7979601401784692094, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7845613667057310933, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7660828442351061628, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7561974818292093654, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7389522771803242254, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -7085029479410389246, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6993414747521632548, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6756117477977683753, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6563325329394562407, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6428590915927185568, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -6195352087712739538, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5899568629877720675, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5699521247788185606, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5248973628219885481, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -5211616977067575334, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4736862181016870992, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4151432553734934169, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4049250286881637712, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -4025305091282042173, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3976331052572106981, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3878155373967591969, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3435657125234464212, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3413910667383733554, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3283342824320820880, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3256656905112600145, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -2615171524542925016, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1488750603486876189, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1028821601707254872, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -1014255805040205117, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -829617598302344591, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -645430010810130760, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -381777625441254097, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -160765056040399631, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -65032641012843871, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: -3995710872945742, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 35385268427569749, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 364049253228500729, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 398340008860237205, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 499194406930072568, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1271242459351239521, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1436336906033462128, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2316902650144950314, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2317420112173156820, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2338631335927158832, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2443621387270372954, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2720066286849765224, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3016278563724561299, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3054107452250946770, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3923977464093827534, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_Name
       value: Building_Chimney (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560940946306726, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalScale.z
@@ -8979,6 +10848,110 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3981560940967041366, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941000224734, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941494186315, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560941509805868, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942048608220, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942208022187, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942284536482, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3981560942504172155, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4299643639539439818, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4422493845291129322, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4551499456155427381, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4624350271350153701, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4644176898751654840, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4705480485136064590, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5466149144388394916, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5899161931756187439, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6706077943966246232, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7198239954008000087, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7406478833643243475, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7442302100239916184, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7463244463455858904, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7705575217677062251, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8180174834787727277, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8409495703414933219, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8596148670084591439, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8683770791326634625, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
 --- !u!1 &1721283506
@@ -8990,9 +10963,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1721283507}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (3) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9009,7 +10982,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 62
+  m_RootOrder: 65
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1743515764
 PrefabInstance:
@@ -9022,9 +10995,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_GenericCliffA
       objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011205016464, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9123,6 +11104,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_ArowRailing_Long (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490792a65283574e9fcdd778cba9216, type: 3}
 --- !u!1 &1764722778
@@ -9219,7 +11208,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1800730357
 GameObject:
@@ -9230,9 +11219,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1800730358}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9249,7 +11238,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 88
+  m_RootOrder: 91
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1803197693
 PrefabInstance:
@@ -9261,6 +11250,14 @@ PrefabInstance:
     - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
@@ -9317,9 +11314,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1821221549}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_LargeTorch (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9336,7 +11333,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 126
+  m_RootOrder: 129
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1828535460
 PrefabInstance:
@@ -9691,7 +11688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6196691178725194382, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 6196691178725194382, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9935,6 +11932,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+--- !u!1001 &1834106017
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 40.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790335378488877487, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_Name
+      value: Boundary (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
 --- !u!1001 &1836418125
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9948,7 +12002,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10005,7 +12059,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10058,9 +12112,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1847789979}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (15) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10077,7 +12131,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 117
+  m_RootOrder: 120
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1848190796
 GameObject:
@@ -10088,9 +12142,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1848190797}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (25) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10107,7 +12161,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 64
+  m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1855039221
 GameObject:
@@ -10118,9 +12172,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1855039222}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_LargeTorch (3) (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10137,7 +12191,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 101
+  m_RootOrder: 104
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1875555605
 PrefabInstance:
@@ -10150,9 +12204,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
       propertyPath: m_LocalScale.x
@@ -10217,9 +12279,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1882243199}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (6) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10236,7 +12298,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 102
+  m_RootOrder: 105
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1887325444
 GameObject:
@@ -10247,10 +12309,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1887325445}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (3) (Missing Prefab with
     guid: b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10267,7 +12329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 68
+  m_RootOrder: 71
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1896021974
 PrefabInstance:
@@ -10280,9 +12342,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: rock1
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -10353,6 +12423,14 @@ PrefabInstance:
     - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_Name
       value: Medieval_Masonary_WoodLarge_StrongSupportColumn (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
@@ -10455,6 +12533,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1922114492
@@ -10551,7 +12637,7 @@ Transform:
   m_LocalScale: {x: 0.49272, y: 1, z: 0.4896189}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 132
+  m_RootOrder: 135
   m_LocalEulerAnglesHint: {x: 0, y: -87.751, z: -90}
 --- !u!1001 &1922527362
 PrefabInstance:
@@ -10608,6 +12694,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_ArowRailing_Long (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490792a65283574e9fcdd778cba9216, type: 3}
 --- !u!114 &1926923278 stripped
@@ -10632,9 +12726,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceTerrainC (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010162908872, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010162908872, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_LocalScale.x
@@ -10699,9 +12801,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1937159386}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (17) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10718,7 +12820,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 98
+  m_RootOrder: 101
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1948468886
 PrefabInstance:
@@ -10775,6 +12877,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_IronFixtures_ArowRailing_Long (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490792a65283574e9fcdd778cba9216, type: 3}
 --- !u!1001 &1952474266
@@ -10788,9 +12898,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_LowRockMedium (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10843,9 +12961,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1968711857}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (16) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10862,7 +12980,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 113
+  m_RootOrder: 116
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1970789504
 PrefabInstance:
@@ -10919,6 +13037,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1 &1972437014
@@ -10930,9 +13056,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1972437015}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (28) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10949,7 +13075,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 91
+  m_RootOrder: 94
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1973456293
 GameObject:
@@ -10960,9 +13086,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1973456294}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (24) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10979,7 +13105,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 77
+  m_RootOrder: 80
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1976236292
 PrefabInstance:
@@ -11036,6 +13162,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_Planks (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
 --- !u!1001 &1982823937
@@ -11049,9 +13183,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_LowRockMedium (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000014231182882, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalScale.y
@@ -11108,9 +13250,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2003184526}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (8) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11127,7 +13269,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 87
+  m_RootOrder: 90
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2008113299
 PrefabInstance:
@@ -11139,6 +13281,14 @@ PrefabInstance:
     - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_Name
       value: Medieval_Platforms_PlanksNailed (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
@@ -11197,9 +13347,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceTerrainC
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010162908872, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010162908872, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11298,6 +13456,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Medieval_Platforms_LoosePlank_01
       objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
 --- !u!1 &2084693886
@@ -11309,9 +13475,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2084693887}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_Planks (27) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11328,7 +13494,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 112
+  m_RootOrder: 115
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2100858407
 PrefabInstance:
@@ -11341,9 +13507,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -11410,9 +13592,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: RHEF_SpruceA (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000010816656516, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_TagString
+      value: Environment_NonInt
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000011155360908, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000013313497444, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -11477,9 +13675,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2120460419}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_LoosePlank_01 (2) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11496,7 +13694,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 104
+  m_RootOrder: 107
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2132464700
 GameObject:
@@ -11507,10 +13705,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2132464701}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_IronFixtures_ArowRailing_Long (2) (Missing Prefab with guid:
     e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11527,7 +13725,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 95
+  m_RootOrder: 98
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2137930128
 GameObject:
@@ -11538,9 +13736,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2137930129}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: 'Medieval_Platforms_PlanksNailed (4) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
+  m_TagString: Environment_NonInt
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11557,7 +13755,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 123
+  m_RootOrder: 126
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2141427400
 PrefabInstance:
@@ -11616,6 +13814,63 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
+--- !u!1001 &384548045076810250
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_RootOrder
+      value: 138
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -60.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750203633801225756, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8790335378488877487, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
+      propertyPath: m_Name
+      value: Boundary
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 096e2a60f36abe2488a42b06f0d120b7, type: 3}
 --- !u!1001 &4298766279731838873
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11791,7 +14046,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2067438308038285438, guid: 0eaa6c2f813c24e97a7669718ed6d78c, type: 3}
       propertyPath: m_RootOrder
-      value: 129
+      value: 131
       objectReference: {fileID: 0}
     - target: {fileID: 2067438308038285438, guid: 0eaa6c2f813c24e97a7669718ed6d78c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11921,7 +14176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8118040903253009682, guid: fe1b69a1ff361411baa047f6d5471fca, type: 3}
       propertyPath: m_RootOrder
-      value: 128
+      value: 130
       objectReference: {fileID: 0}
     - target: {fileID: 8118040903253009682, guid: fe1b69a1ff361411baa047f6d5471fca, type: 3}
       propertyPath: m_AnchorMax.x
