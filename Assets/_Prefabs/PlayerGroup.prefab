@@ -18,7 +18,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &18560001
 RectTransform:
   m_ObjectHideFlags: 0
@@ -490,7 +490,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4788274870320442241
 RectTransform:
   m_ObjectHideFlags: 0
@@ -512,7 +512,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: -30}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &6196691178146922888
@@ -696,7 +696,7 @@ Camera:
     width: 1
     height: 1
   near clip plane: 0.3
-  far clip plane: 1000
+  far clip plane: 200
   field of view: 60
   orthographic: 0
   orthographic size: 5
@@ -1068,7 +1068,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5138896726221353480, guid: 51930d199b2cfa44ab1441434f28e66b, type: 3}
       propertyPath: fallingVelocity
-      value: 25
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138896726221353480, guid: 51930d199b2cfa44ab1441434f28e66b, type: 3}
+      propertyPath: leapingVelocity
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138896726221353480, guid: 51930d199b2cfa44ab1441434f28e66b, type: 3}
+      propertyPath: gravityIntensity
+      value: -10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5138896726221353480, guid: 51930d199b2cfa44ab1441434f28e66b, type: 3}
+      propertyPath: rayCastHeightOffset
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 5189995172317473443, guid: 51930d199b2cfa44ab1441434f28e66b, type: 3}
       propertyPath: m_Layer

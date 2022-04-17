@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44608772, g: 0.49585253, b: 0.57450414, a: 1}
+  m_IndirectSpecularColor: {r: 0.67936045, g: 0.73288816, b: 0.8046805, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,8 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 0256f7753dec0c24aaf54b5b98d43f25, type: 2}
-  m_LightingSettings: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: 1b17beecf3d095c43836bc50dd926c09, type: 2}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: c613c54e78aa5b844a778ab2c52c1a51, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 103
+      value: 105
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -193,7 +193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 49
+      value: 55
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -258,7 +258,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -319,7 +319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_LocalScale.x
@@ -388,7 +388,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 22
+      value: 28
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalPosition.x
@@ -432,36 +432,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
---- !u!1 &120132585
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 2141427400}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 120132586}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (26) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &120132586
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 2141427400}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 120132585}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &121123363
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -475,7 +445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_LocalScale.x
@@ -566,7 +536,7 @@ Transform:
   - {fileID: 1018732452}
   - {fileID: 319919597}
   m_Father: {fileID: 0}
-  m_RootOrder: 33
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &158450215
 PrefabInstance:
@@ -577,7 +547,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 81
+      value: 82
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -638,7 +608,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 21
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -695,7 +665,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_RootOrder
-      value: 41
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_LocalScale.x
@@ -751,97 +721,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
---- !u!1 &207846699
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1803197693}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 207846700}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (2) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &207846700
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1803197693}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 207846699}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 69
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &209476596
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 252397887}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 209476597}
-  m_Layer: 0
-  m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (2) (Missing Prefab with
-    guid: b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &209476597
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 252397887}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209476596}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 124
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &216391384
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1029910000}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 216391385}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (4) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &216391385
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1029910000}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 216391384}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 94
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &234061377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -855,7 +734,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 84
       objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalScale.z
@@ -972,7 +851,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
-      value: 117
+      value: 118
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1016,36 +895,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
---- !u!1 &262063026
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1976236292}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 262063027}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (7) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &262063027
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1976236292}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262063026}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 63
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &262371688
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1059,7 +908,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 100
+      value: 102
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1116,7 +965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013308252972, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 4000013308252972, guid: 75fa8bf3a73ee6b4da0c7a2c6d3db6a1, type: 3}
       propertyPath: m_LocalScale.x
@@ -1181,7 +1030,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 79
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1242,7 +1091,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_RootOrder
-      value: 16
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1286,37 +1135,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
---- !u!1 &292866260
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 1379317413}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 292866261}
-  m_Layer: 0
-  m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (Missing Prefab with guid:
-    b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &292866261
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 1379317413}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 292866260}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 82
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &304699100
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1326,7 +1144,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 107
+      value: 109
       objectReference: {fileID: 0}
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1374,36 +1192,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
---- !u!1 &305151273
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 1629467419}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 305151274}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_LoosePlank_01 (1) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &305151274
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 1629467419}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 305151273}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 74
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &317470711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1413,7 +1201,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 109
+      value: 111
       objectReference: {fileID: 0}
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1552,7 +1340,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 69
+      value: 67
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1609,7 +1397,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 78
+      value: 79
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1670,7 +1458,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 69
       objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_LocalScale.y
@@ -1718,36 +1506,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 46b49871773764447a894bbb1c459502, type: 3}
---- !u!1 &384185748
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 1355777505}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 384185749}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_LoosePlank_01 (5) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &384185749
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 1355777505}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 384185748}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 85
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &402289254
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1757,7 +1515,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 83
+      value: 85
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1814,7 +1572,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1862,36 +1620,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e490792a65283574e9fcdd778cba9216, type: 3}
---- !u!1 &409278656
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 538896591}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 409278657}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (23) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &409278657
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 538896591}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409278656}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 110
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &411546723
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1905,7 +1633,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 46
+      value: 51
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1949,37 +1677,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
---- !u!1 &423241776
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1388542085}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 423241777}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (6) (Missing Prefab with guid:
-    e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &423241777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1388542085}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 423241776}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 81
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &429948813
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1989,7 +1686,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 71
+      value: 70
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2050,7 +1747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 17
+      value: 23
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2115,7 +1812,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder
-      value: 26
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2172,7 +1869,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8801589038867150782, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8801589038867150782, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
       propertyPath: m_LocalScale.x
@@ -2237,7 +1934,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 85
+      value: 88
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2294,7 +1991,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 94
+      value: 97
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2355,7 +2052,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 14
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_LocalScale.x
@@ -2411,36 +2108,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
---- !u!1 &486781649
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 341629211}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 486781650}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (10) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &486781650
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 341629211}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 486781649}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 118
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &493751565
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2450,7 +2117,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2904462113517235693, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
       propertyPath: m_RootOrder
-      value: 113
+      value: 114
       objectReference: {fileID: 0}
     - target: {fileID: 2904462113517235693, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2511,7 +2178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 44
+      value: 48
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalScale.x
@@ -2567,36 +2234,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
---- !u!1 &532808782
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 325397}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 532808783}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (7) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &532808783
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 325397}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 532808782}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 127
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &538896591
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2606,7 +2243,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 90
+      value: 93
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2663,7 +2300,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_RootOrder
-      value: 112
+      value: 113
       objectReference: {fileID: 0}
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2711,66 +2348,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
---- !u!1 &547025548
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 317470711}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 547025549}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_LoosePlank_01 (6) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &547025549
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 317470711}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547025548}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 120
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &547376281
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 158450215}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 547376282}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (13) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &547376282
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 158450215}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 547376281}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 125
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &553073241
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2780,7 +2357,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 91
+      value: 94
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2828,37 +2405,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &559341322
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 4298766279731838873}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 559341323}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (3) (Missing Prefab with guid:
-    e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &559341323
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 4298766279731838873}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 559341322}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &563998000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2872,7 +2418,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -2941,7 +2487,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1330124519747720953, guid: f51bea269c247634fb5e9ff4904221d9, type: 3}
       propertyPath: m_RootOrder
-      value: 28
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 1330124519747720953, guid: f51bea269c247634fb5e9ff4904221d9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2994,7 +2540,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 80
+      value: 81
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3042,37 +2588,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &590309084
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 1483513851}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 590309085}
-  m_Layer: 0
-  m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (1) (Missing Prefab with
-    guid: b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &590309085
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 1483513851}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 590309084}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 78
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &602488868
 GameObject:
   m_ObjectHideFlags: 0
@@ -3166,68 +2681,8 @@ Transform:
   m_LocalScale: {x: 1.5, y: 2.7, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 31
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: -150.848, z: 0}
---- !u!1 &617194086
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 304699100}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 617194087}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_LoosePlank_01 (4) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &617194087
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 304699100}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 617194086}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 121
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &638757003
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6487716144170632422, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
-  m_PrefabInstance: {fileID: 744239892}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 638757004}
-  m_Layer: 0
-  m_Name: 'Medieval_Foliage_IvyVines_ShortHoz (Missing Prefab with guid: e7e4c40bc12a44e48bdf2f88608e3bef)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &638757004
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2904462113517235693, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
-  m_PrefabInstance: {fileID: 744239892}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638757003}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 105
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &655941552
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3241,7 +2696,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
       propertyPath: m_RootOrder
-      value: 115
+      value: 116
       objectReference: {fileID: 0}
     - target: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
       propertyPath: m_LocalScale.y
@@ -3302,7 +2757,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 50
+      value: 56
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -3452,7 +2907,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 30
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &681285126
 PrefabInstance:
@@ -3467,7 +2922,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012795208846, guid: e318266f60803d548a4b409b52b39d8d, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 26
       objectReference: {fileID: 0}
     - target: {fileID: 4000012795208846, guid: e318266f60803d548a4b409b52b39d8d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3511,36 +2966,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e318266f60803d548a4b409b52b39d8d, type: 3}
---- !u!1 &695739321
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 908753210}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 695739322}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (21) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &695739322
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 908753210}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 695739321}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 100
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -3632,7 +3057,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 27
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 51.393, y: -52.602, z: -12.919}
 --- !u!1001 &718920750
 PrefabInstance:
@@ -3761,7 +3186,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 25
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3898,38 +3323,8 @@ Transform:
   m_LocalScale: {x: 1.5, y: 2.7, z: 0.2}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 32
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: -150.848, z: 0}
---- !u!1 &766009978
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 953971343}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 766009979}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (2) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &766009979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 953971343}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 766009978}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 99
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &779093271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5394274054180447380, guid: 3552252ad6f574d40b217968bcacd836, type: 3}
@@ -3949,7 +3344,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 105
+      value: 107
       objectReference: {fileID: 0}
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4075,7 +3470,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 77
+      value: 78
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4123,36 +3518,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &839816563
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1276219425}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 839816564}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (20) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &839816564
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1276219425}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 839816563}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 89
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &840425209
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4166,7 +3531,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 48
+      value: 54
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4219,7 +3584,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 74
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4276,7 +3641,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_RootOrder
-      value: 118
+      value: 119
       objectReference: {fileID: 0}
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4324,67 +3689,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
---- !u!1 &887271857
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 264821755}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 887271858}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (11) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &887271858
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 264821755}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 887271857}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 122
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &891427789
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1922527362}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 891427790}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (7) (Missing Prefab with guid:
-    e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &891427790
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1922527362}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 891427789}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 66
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &908753210
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4394,7 +3698,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 89
+      value: 92
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4538,36 +3842,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 131
   m_LocalEulerAnglesHint: {x: 0, y: -9.235, z: -90}
---- !u!1 &950285942
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1064896336}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 950285943}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (18) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &950285943
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1064896336}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 950285942}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 93
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &953971343
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4577,7 +3851,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 70
+      value: 68
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4634,7 +3908,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 87
+      value: 90
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4682,66 +3956,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &957674738
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1002360315}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 957674739}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (5) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &957674739
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1002360315}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957674738}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 96
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &977765303
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 1540837947}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 977765304}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_LoosePlank_01 (3) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &977765304
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 1540837947}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 977765303}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 76
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &983205288 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1330124520457452190, guid: f51bea269c247634fb5e9ff4904221d9, type: 3}
@@ -4766,7 +3980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 97
+      value: 99
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4823,7 +4037,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_RootOrder
-      value: 24
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4876,7 +4090,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 73
+      value: 74
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4933,7 +4147,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_RootOrder
-      value: 121
+      value: 122
       objectReference: {fileID: 0}
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5202,36 +4416,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &1031073124
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 984492511}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1031073125}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (1) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1031073125
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 984492511}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1031073124}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 97
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1031458684
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5245,7 +4429,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_RootOrder
-      value: 72
+      value: 71
       objectReference: {fileID: 0}
     - target: {fileID: 4000013213224824, guid: a649302f8407dd9469e2c5b67b4a0674, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5302,7 +4486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_RootOrder
-      value: 39
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5359,7 +4543,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 58
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -5415,36 +4599,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
---- !u!1 &1049763527
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1470450826}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1049763528}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (14) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1049763528
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1470450826}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1049763527}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 79
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1064896336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5454,7 +4608,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 88
+      value: 91
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5515,7 +4669,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 52
+      value: 58
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -5584,7 +4738,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
       propertyPath: m_LocalScale.y
@@ -5645,7 +4799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_RootOrder
-      value: 12
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 4000010281450330, guid: 46b49871773764447a894bbb1c459502, type: 3}
       propertyPath: m_LocalScale.y
@@ -5702,7 +4856,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 114
+      value: 115
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5844,37 +4998,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 40
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1178414522
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1595527487}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1178414523}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (6) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1178414523
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1595527487}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1178414522}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 75
+  m_RootOrder: 52
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1190756620
 PrefabInstance:
@@ -5889,7 +5013,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 51
+      value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -5945,67 +5069,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
---- !u!1 &1193674304
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1762464243}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1193674305}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (1) (Missing Prefab with guid:
-    e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1193674305
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1762464243}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1193674304}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 70
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1198500709
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 1447594057}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1198500710}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_LargeTorch (2) (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1198500710
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 1447594057}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1198500709}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 80
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1200413235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6019,7 +5082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 55
+      value: 61
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6084,7 +5147,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_RootOrder
-      value: 25
+      value: 31
       objectReference: {fileID: 0}
     - target: {fileID: 5826582559400492653, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6128,36 +5191,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9175d08a6bdddeb48afa15d1b714d918, type: 3}
---- !u!1 &1213698780
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 856365891135860608, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
-  m_PrefabInstance: {fileID: 1076437164}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1213698781}
-  m_Layer: 0
-  m_Name: 'Medieval_Chimney_Small (Missing Prefab with guid: a2c0c3aca65defd4d9d259916215d53d)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1213698781
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
-  m_PrefabInstance: {fileID: 1076437164}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1213698780}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 92
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1244528523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6171,7 +5204,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_RootOrder
-      value: 43
+      value: 47
       objectReference: {fileID: 0}
     - target: {fileID: 4000012540657484, guid: 7fbdfd6f6f8e7b8459e7ec638775fbcc, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6224,7 +5257,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 87
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6366,7 +5399,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 36
+  m_RootOrder: 46
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1276219425
 PrefabInstance:
@@ -6377,7 +5410,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 86
+      value: 89
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6438,7 +5471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6491,7 +5524,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 76
+      value: 77
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6539,36 +5572,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &1289161010
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 584887792}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1289161011}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (12) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1289161011
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 584887792}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1289161010}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 107
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1289432259
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6582,7 +5585,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 101
+      value: 103
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6626,96 +5629,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
---- !u!1 &1303181730
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1289432259}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1303181731}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (5) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1303181731
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1289432259}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1303181730}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 86
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1311447871
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 328732096}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1311447872}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (1) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1311447872
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 328732096}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1311447871}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 119
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1314782975
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6953003461778646454, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
-  m_PrefabInstance: {fileID: 452185474}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1314782976}
-  m_Layer: 0
-  m_Name: 'Medieval_Foliage_Fern_Large (Missing Prefab with guid: 2fc687804e64b5143a99ccd10efc0aef)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1314782976
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 8801589038867150782, guid: 2fc687804e64b5143a99ccd10efc0aef, type: 3}
-  m_PrefabInstance: {fileID: 452185474}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1314782975}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 114
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1322479275
 GameObject:
   m_ObjectHideFlags: 0
@@ -6810,7 +5723,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 38
+  m_RootOrder: 49
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1340195573
 GameObject:
@@ -6912,37 +5825,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &1341147718
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1948468886}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1341147719}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (4) (Missing Prefab with guid:
-    e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1341147719
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1948468886}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1341147718}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 65
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1355777505
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6952,7 +5834,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 108
+      value: 110
       objectReference: {fileID: 0}
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7013,7 +5895,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_RootOrder
-      value: 84
+      value: 86
       objectReference: {fileID: 0}
     - target: {fileID: 3981560940946306727, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7070,7 +5952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7123,7 +6005,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_RootOrder
-      value: 125
+      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_LocalScale.x
@@ -7218,7 +6100,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 24be8e1643b8a474fbb57fcda8a1c454, type: 3}
       propertyPath: m_LocalScale.x
@@ -7304,66 +6186,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.4080145, y: 2.2950897, z: 0.29553434}
   m_Center: {x: 0, y: 1.1481464, z: 0.028115734}
---- !u!1 &1439139396
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 2055432566}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1439139397}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_LoosePlank_01 (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1439139397
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 2055432566}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1439139396}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 61
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1441494201
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 403913565}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1441494202}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (Missing Prefab with guid: e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1441494202
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 403913565}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441494201}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 116
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1445280423
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7447,7 +6269,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_RootOrder
-      value: 119
+      value: 120
       objectReference: {fileID: 0}
     - target: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7600,7 +6422,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 82
+      value: 83
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7707,7 +6529,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
-      value: 111
+      value: 112
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7760,7 +6582,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 93
+      value: 96
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7808,36 +6630,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &1501328732
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 553073241}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1501328733}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (22) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1501328733
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 553073241}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501328732}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 108
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1508782907
 GameObject:
   m_ObjectHideFlags: 0
@@ -8000,97 +6792,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 133
   m_LocalEulerAnglesHint: {x: 0, y: 11.29, z: -90}
---- !u!1 &1513835235
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1917263472}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1513835236}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1513835236
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1917263472}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1513835235}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 67
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1522700979
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 794703171}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1522700980}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (9) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1522700980
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 794703171}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522700979}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 103
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1524612351
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 8156442003619089637}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1524612352}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (5) (Missing Prefab with guid:
-    e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1524612352
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 8156442003619089637}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1524612351}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1526813519
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8104,7 +6805,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_RootOrder
-      value: 56
+      value: 62
       objectReference: {fileID: 0}
     - target: {fileID: 4000011232769348, guid: 838aed2c0bd6e074383add6c6e347995, type: 3}
       propertyPath: m_LocalScale.x
@@ -8254,7 +6955,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 34
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1540837947
 PrefabInstance:
@@ -8265,7 +6966,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 106
+      value: 108
       objectReference: {fileID: 0}
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8383,7 +7084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -8452,7 +7153,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 102
+      value: 104
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8496,36 +7197,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
---- !u!1 &1603202697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1253146028}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1603202698}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (19) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1603202698
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1253146028}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1603202697}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 90
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1613919909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8539,7 +7210,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 47
+      value: 53
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8592,7 +7263,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 104
+      value: 106
       objectReference: {fileID: 0}
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8640,66 +7311,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
---- !u!1 &1632451980
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 541559836}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1632451981}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_LargeTorch (1) (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1632451981
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 541559836}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1632451980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 109
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1641951525
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 856365891135860608, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
-  m_PrefabInstance: {fileID: 655941552}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1641951526}
-  m_Layer: 0
-  m_Name: 'Medieval_Chimney_Small (1) (Missing Prefab with guid: a2c0c3aca65defd4d9d259916215d53d)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1641951526
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9097891517772665973, guid: a2c0c3aca65defd4d9d259916215d53d, type: 3}
-  m_PrefabInstance: {fileID: 655941552}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641951525}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 106
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1672037028
 GameObject:
   m_ObjectHideFlags: 0
@@ -8746,36 +7357,6 @@ Transform:
   m_Father: {fileID: 149337167}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1674531012
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 429948813}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1674531013}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (3) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1674531013
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 429948813}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674531012}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 115
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1677309736
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8789,7 +7370,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_RootOrder
-      value: 42
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8833,36 +7414,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
---- !u!1 &1680379855
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 6487716144170632422, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
-  m_PrefabInstance: {fileID: 493751565}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1680379856}
-  m_Layer: 0
-  m_Name: 'Medieval_Foliage_IvyVines_ShortHoz (1) (Missing Prefab with guid: e7e4c40bc12a44e48bdf2f88608e3bef)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1680379856
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2904462113517235693, guid: e7e4c40bc12a44e48bdf2f88608e3bef, type: 3}
-  m_PrefabInstance: {fileID: 493751565}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1680379855}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 111
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1706348283
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8876,7 +7427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 57
+      value: 63
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8981,36 +7532,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 715969aafd4ecda4e84065aaa2e94931, type: 3}
---- !u!1 &1721283506
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 2008113299}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1721283507}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (3) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1721283507
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 2008113299}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1721283506}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 62
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1743515764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9024,7 +7545,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_RootOrder
-      value: 23
+      value: 29
       objectReference: {fileID: 0}
     - target: {fileID: 4000010140763972, guid: b12c8b6046ef0604b96e60fe14b9c16e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9077,7 +7598,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_RootOrder
-      value: 120
+      value: 121
       objectReference: {fileID: 0}
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9219,37 +7740,7 @@ Transform:
   m_LocalScale: {x: 4.0171, y: 4.0171, z: 4.0171}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 35
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1800730357
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1280442243}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1800730358}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1800730358
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 1280442243}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1800730357}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 88
+  m_RootOrder: 44
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1803197693
 PrefabInstance:
@@ -9264,7 +7755,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 98
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9308,36 +7799,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
---- !u!1 &1821221548
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 70215606}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1821221549}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_LargeTorch (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1821221549
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 70215606}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1821221548}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 126
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1828535460
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9691,7 +8152,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6196691178725194382, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_RootOrder
-      value: 29
+      value: 34
       objectReference: {fileID: 0}
     - target: {fileID: 6196691178725194382, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9948,7 +8409,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 54
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10005,7 +8466,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_RootOrder
-      value: 18
+      value: 24
       objectReference: {fileID: 0}
     - target: {fileID: 4000011207167760, guid: ff421997f346e314c82e73610f419ac1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10049,96 +8510,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff421997f346e314c82e73610f419ac1, type: 3}
---- !u!1 &1847789978
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 402289254}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1847789979}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (15) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1847789979
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 402289254}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1847789978}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 117
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1848190796
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1970789504}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1848190797}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (25) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1848190797
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1970789504}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1848190796}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 64
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1855039221
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1396095321937781262, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 885483014}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1855039222}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_LargeTorch (3) (Missing Prefab with guid: 76ed53cf51b84f1468d46e92197bf9fd)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1855039222
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 274143698704346449, guid: 76ed53cf51b84f1468d46e92197bf9fd, type: 3}
-  m_PrefabInstance: {fileID: 885483014}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1855039221}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 101
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1875555605
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10152,7 +8523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
       propertyPath: m_LocalScale.x
@@ -10208,67 +8579,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b5f2f9ea19c74c659ab8ac969280fb2, type: 3}
---- !u!1 &1882243198
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 863817449}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1882243199}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (6) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1882243199
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 863817449}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1882243198}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 102
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1887325444
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1467294951028766217, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 1910420065}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1887325445}
-  m_Layer: 0
-  m_Name: 'Medieval_Masonary_WoodLarge_StrongSupportColumn (3) (Missing Prefab with
-    guid: b9cd7dc36e88f1142a32d9e5ef9b075e)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1887325445
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
-  m_PrefabInstance: {fileID: 1910420065}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887325444}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 68
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1896021974
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10282,7 +8592,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: a2d308598386f4a0797f87a4b95b9dd1, type: 3}
       propertyPath: m_LocalScale.x
@@ -10356,7 +8666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_RootOrder
-      value: 116
+      value: 117
       objectReference: {fileID: 0}
     - target: {fileID: 4988291095469440977, guid: b9cd7dc36e88f1142a32d9e5ef9b075e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10409,7 +8719,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10634,7 +8944,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 65
       objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_LocalScale.x
@@ -10690,36 +9000,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
---- !u!1 &1937159385
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 954073230}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1937159386}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (17) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1937159386
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 954073230}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1937159385}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 98
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1948468886
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10729,7 +9009,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_RootOrder
-      value: 123
+      value: 124
       objectReference: {fileID: 0}
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10790,7 +9070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 45
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10834,36 +9114,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
---- !u!1 &1968711856
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 457772401}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1968711857}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (16) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1968711857
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 457772401}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968711856}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 113
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1970789504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10873,7 +9123,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 92
+      value: 95
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10921,66 +9171,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
---- !u!1 &1972437014
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1150890698}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1972437015}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (28) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1972437015
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1150890698}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1972437014}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 91
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1973456293
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1493053484}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1973456294}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (24) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1973456294
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1493053484}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1973456293}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 77
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1976236292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10990,7 +9180,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 75
+      value: 76
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11051,7 +9241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_RootOrder
-      value: 15
+      value: 21
       objectReference: {fileID: 0}
     - target: {fileID: 4000010047561926, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
       propertyPath: m_LocalScale.y
@@ -11099,36 +9289,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0b77cb11615419c4ba1888ac53ce2718, type: 3}
---- !u!1 &2003184525
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1282159253}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2003184526}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (8) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2003184526
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 1282159253}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2003184525}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 87
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2008113299
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11142,7 +9302,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_RootOrder
-      value: 99
+      value: 101
       objectReference: {fileID: 0}
     - target: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11199,7 +9359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_RootOrder
-      value: 13
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: 4000011490102082, guid: 000fe5e39bc5b2b44b03d5e5d4f40d7c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11252,7 +9412,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11300,36 +9460,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
---- !u!1 &2084693886
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 7342188840642396948, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 470332742}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2084693887}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_Planks (27) (Missing Prefab with guid: 80e227181979b9e4db071f4a8ea5eca6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2084693887
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
-  m_PrefabInstance: {fileID: 470332742}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2084693886}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 112
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2100858407
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11343,7 +9473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 60
+      value: 66
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -11412,7 +9542,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_RootOrder
-      value: 53
+      value: 59
       objectReference: {fileID: 0}
     - target: {fileID: 4000010377046070, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
       propertyPath: m_LocalScale.x
@@ -11468,97 +9598,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
---- !u!1 &2120460418
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3564382266393401934, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 780168520}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2120460419}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_LoosePlank_01 (2) (Missing Prefab with guid: 7759a90c8114eae4cb2d199edb240ea6)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2120460419
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 444224949050115297, guid: 7759a90c8114eae4cb2d199edb240ea6, type: 3}
-  m_PrefabInstance: {fileID: 780168520}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2120460418}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 104
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2132464700
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5789263167873017821, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1009831411}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2132464701}
-  m_Layer: 0
-  m_Name: 'Medieval_IronFixtures_ArowRailing_Long (2) (Missing Prefab with guid:
-    e490792a65283574e9fcdd778cba9216)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2132464701
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
-  m_PrefabInstance: {fileID: 1009831411}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2132464700}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 95
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2137930128
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 1168813174891983151, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 262371688}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2137930129}
-  m_Layer: 0
-  m_Name: 'Medieval_Platforms_PlanksNailed (4) (Missing Prefab with guid: 2f06573bc73b7f44298777eaf2f0b500)'
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2137930129
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 5358744967374617467, guid: 2f06573bc73b7f44298777eaf2f0b500, type: 3}
-  m_PrefabInstance: {fileID: 262371688}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2137930128}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 123
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2141427400
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11568,7 +9607,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_RootOrder
-      value: 95
+      value: 98
       objectReference: {fileID: 0}
     - target: {fileID: 1699234967074370696, guid: 80e227181979b9e4db071f4a8ea5eca6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11625,7 +9664,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_RootOrder
-      value: 122
+      value: 123
       objectReference: {fileID: 0}
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11852,7 +9891,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_RootOrder
-      value: 124
+      value: 125
       objectReference: {fileID: 0}
     - target: {fileID: 3891694512807637014, guid: e490792a65283574e9fcdd778cba9216, type: 3}
       propertyPath: m_LocalPosition.x
