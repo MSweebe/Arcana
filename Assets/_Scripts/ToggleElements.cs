@@ -15,6 +15,7 @@ public class ToggleElements : MonoBehaviour
     public void Start()
     {
         pauseMenu = GameObject.FindGameObjectWithTag("PauseMenu");
+        Cursor.visible = false;
     }
     void Update()
     {

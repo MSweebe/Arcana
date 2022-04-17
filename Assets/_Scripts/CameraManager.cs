@@ -5,6 +5,7 @@ using UnityEngine;
 public class CameraManager : MonoBehaviour
 {
     InputManager inputManager;
+    public bool isPaused;
 
     public Transform targetTransform;  //object camera will follow
     public Transform cameraPivot;      //object cam uses to pivot (up and down)
@@ -40,9 +41,14 @@ public class CameraManager : MonoBehaviour
 
     public void HandleCameraMovement()
     {
-        FollowTarget();
-        RotateCamera();
-        HandleCameraCollisions();
+        if(isPaused) {
+            return;
+        } else {
+            FollowTarget();
+            RotateCamera();
+            HandleCameraCollisions();
+        }
+        
     }
 
     private void FollowTarget()
