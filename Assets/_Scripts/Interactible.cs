@@ -20,6 +20,8 @@ public class Interactible : MonoBehaviour
     [Header("Set in Inspector")]
 
     public GameObject[] triggerObjects;
+
+    [Header("Serialized")]
     public Trigger[] GOTrigger;
 
     public void Start()
