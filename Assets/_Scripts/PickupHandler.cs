@@ -8,12 +8,15 @@ public class PickupHandler : MonoBehaviour
 {
 
     private int count;
+    private int totalNum;
     public TextMeshProUGUI counttxt;
     // Start is called before the first frame update
     void Start()
     {
+        //totalNum = GameObject.FindGameObjectsWithTag("Collectibles", true).Length;
+        totalNum = GameObject.FindObjectsOfType<PickupFloat>(true).Length;
+        // set count to zero
         count = 0;
-
         UpdateCount();
     }
 
@@ -33,6 +36,6 @@ public class PickupHandler : MonoBehaviour
     }
     void UpdateCount()
     {
-        counttxt.text = "Shards: " + count.ToString();
+        counttxt.text = "Shards: " + count.ToString() + " / " + totalNum.ToString();
     }
 }
