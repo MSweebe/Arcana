@@ -43,6 +43,9 @@ public class Earth : MonoBehaviour
         transform.position = startingPos;
         phase1Start = Time.time;
 
+        //slow down pitch
+        AudioSource earthy = GetComponent<AudioSource>();
+        earthy.pitch = (float)0.1;
 
         transform.localScale = scale;
     }
