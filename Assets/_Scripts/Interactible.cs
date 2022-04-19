@@ -19,12 +19,20 @@ public class Interactible : MonoBehaviour
 {
     [Header("Set in Inspector")]
 
-    public GameObject triggerObject;
-    public Trigger GOTrigger;
+    public GameObject[] triggerObjects;
+
+    [Header("Serialized")]
+    public Trigger[] GOTrigger;
 
     public void Start()
     {
-        GOTrigger = triggerObject.GetComponent<Trigger>();
+        GOTrigger = new Trigger[triggerObjects.Length];
+        for (int i = 0; i < GOTrigger.Length; i++)
+        {
+            GOTrigger[i] = triggerObjects[i].GetComponent<Trigger>();
+
+        }
+
     }
     public virtual void Flooded() { }
 
