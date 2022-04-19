@@ -36,6 +36,6 @@ public class PickupHandler : MonoBehaviour
     }
     void UpdateCount()
     {
-        counttxt.text = "Shards: " + count.ToString() + " / " + totalNum.ToString();
+        counttxt.text = count.ToString() + " / " + totalNum.ToString();
     }
 }
