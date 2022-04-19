@@ -11,8 +11,12 @@ using UnityEngine;
 /// The prefabs contain this.
 /// Layer is recommended to be set to Environment_Int.
 /// </para>
-public class InteractBasin : Interactible
+public class InteractFlood : Interactible
 {
+    public float duration;
+    private float timeTriggered;
+    private Vector3 scale;
+    private bool triggered = false;
     public override void Flooded()
     {
         this.gameObject.SetActive(true);
@@ -24,13 +28,29 @@ public class InteractBasin : Interactible
 
     public override void UnFlood()
     {
-        this.gameObject.SetActive(false);
-
+        // this.gameObject.SetActive(false);
+        timeTriggered = Time.time;
+        triggered = true;
+        scale = transform.localScale;
         if (triggerObjects[0] != null)
         {
             GOTrigger[0].SetTrigger();
         }
 
+    }
+
+    public void FixedUpdate()
+    {
+        if (triggered == true)
+        {
+            float u = 1 - ((Time.time - timeTriggered) / duration);
+            if (u < 0)
+            {
+                triggered = false;
+            }
+            scale.y *= u;
+            transform.localScale = scale;
+        }
     }
 
 }

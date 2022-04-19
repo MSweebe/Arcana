@@ -11,43 +11,28 @@ using UnityEngine;
 /// The prefabs contain this.
 /// Layer is recommended to be set to Environment_Int.
 /// </para>
-public class InteractCandle : Interactible
+public class InteractCandleReverse : Interactible
 {
 
     public override void SetFire()
     {
         setSprite(true);
-        if (triggerObjects != null)
+        if (triggerObjects[0] != null)
         {
-            for (int i = 0; i < triggerObjects.Length; i++)
-            {
-                if (GOTrigger[i] != null)
-                {
-                    GOTrigger[i].SetTrigger();
-                }
-
-            }
-
+            GOTrigger[0].ResetTrigger();
         }
     }
     public override void PutOutFire()
     {
         setSprite(false);
-        if (triggerObjects != null)
+        if (triggerObjects[0] != null)
         {
-            for (int i = 0; i < triggerObjects.Length; i++)
-            {
-                if (GOTrigger[i] != null)
-                {
-                    GOTrigger[i].ResetTrigger();
-                }
-            }
+            GOTrigger[0].SetTrigger();
         }
     }
 
     void setSprite(bool isActive)
     {
-
         GameObject child = this.gameObject.transform.GetChild(0).gameObject;
         if (child != null)
         {
