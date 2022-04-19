@@ -33,6 +33,6 @@ public class PickupHandler : MonoBehaviour
     }
     void UpdateCount()
     {
-        counttxt.text = "Collectibles gotten: "+ count.ToString();
+        counttxt.text = "Shards: " + count.ToString();
     }
 }

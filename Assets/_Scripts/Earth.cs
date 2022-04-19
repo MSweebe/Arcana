@@ -47,8 +47,9 @@ public class Earth : MonoBehaviour
 
 
         transform.localScale = scale;
+        player.transform.forward = Projection.ProjectXZ();
     }
-   void FixedUpdate()
+    void FixedUpdate()
     {
         //duration of action Bezier
         float u = (Time.time - phase1Start) / Step1Dur;

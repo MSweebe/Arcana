@@ -40,6 +40,8 @@ public class Air : MonoBehaviour
         transform.position = startingPos;
         scale = transform.localScale;
         birthTime = Time.time;
+
+        player.transform.forward = Projection.ProjectXZ();
     }
 
     void FixedUpdate()

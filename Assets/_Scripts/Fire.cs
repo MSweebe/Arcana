@@ -33,6 +33,8 @@ public class Fire : MonoBehaviour
         transform.position = startingPos;
         scale = transform.localScale;
         birthTime = Time.time;
+
+        player.transform.forward = Projection.ProjectXZ();
     }
 
 

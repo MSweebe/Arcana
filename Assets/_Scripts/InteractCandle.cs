@@ -47,7 +47,6 @@ public class InteractCandle : Interactible
 
     void setSprite(bool isActive)
     {
-
         GameObject child = this.gameObject.transform.GetChild(0).gameObject;
         if (child != null)
         {
