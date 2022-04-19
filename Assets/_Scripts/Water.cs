@@ -47,6 +47,8 @@ public class Water : MonoBehaviour
         Vector3 startingScale = transform.localScale;
         startingScale.y = yMax + startingPos.y;
 
+        player.transform.forward = Projection.ProjectXZ();
+
     }
 
     void FixedUpdate()
