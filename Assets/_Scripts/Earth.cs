@@ -33,8 +33,6 @@ public class Earth : MonoBehaviour
         Vector3 playerPos = player.transform.position;
         playerDir = player.transform.forward;
 
-
-
         //set position in front of player
         startingPos = playerPos + playerDir * distanceAhead;
         Vector3 scale = transform.localScale;
@@ -47,10 +45,10 @@ public class Earth : MonoBehaviour
 
 
         transform.localScale = scale;
-        player.transform.forward = Projection.ProjectXZ();
     }
     void FixedUpdate()
     {
+
         //duration of action Bezier
         float u = (Time.time - phase1Start) / Step1Dur;
         float v = (Time.time - phase2Start) / TopTime; //scaled so when it is one Ymax is reached

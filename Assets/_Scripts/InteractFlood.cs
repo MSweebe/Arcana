@@ -20,10 +20,18 @@ public class InteractFlood : Interactible
     public override void Flooded()
     {
         this.gameObject.SetActive(true);
-        Vector3 newScale = transform.localScale;
-        newScale.y *= 1.05f;
-        transform.localScale = newScale;
-        GOTrigger[0].ResetTrigger();
+        Vector3 Scale = transform.localScale;
+
+        if (triggerObjects != null)
+        {
+            foreach (Trigger trigger in GOTrigger)
+            {
+                if (trigger != null)
+                {
+                    trigger.ResetTrigger();
+                }
+            }
+        }
     }
 
     public override void UnFlood()
@@ -32,9 +40,15 @@ public class InteractFlood : Interactible
         timeTriggered = Time.time;
         triggered = true;
         scale = transform.localScale;
-        if (triggerObjects[0] != null)
+        if (triggerObjects != null)
         {
-            GOTrigger[0].SetTrigger();
+            foreach (Trigger trigger in GOTrigger)
+            {
+                if (trigger != null)
+                {
+                    trigger.SetTrigger();
+                }
+            }
         }
 
     }

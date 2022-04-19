@@ -14,32 +14,46 @@ public class Fire : MonoBehaviour
     float birthTime;
     Vector3 scale;
     Vector3 startingPos;
-    Vector3 playerDir;
+    Vector3 cameraDir;
+    GameObject player;
+    Vector3 playerDirStart;
+    Vector3 playerDirEnd;
+    float playerTurn = 0;
 
 
     void Start()
     {
-        //find where the player is facing and positioned
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        // find where the player is facing and positioned
+        player = GameObject.FindGameObjectWithTag("Player");
         GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
         Vector3 playerPos = player.transform.position;
-        playerDir = camera.transform.forward;
+        cameraDir = camera.transform.forward;
 
-        //set position of fireball off the ground
+        // set position of fireball off the ground
         playerPos.y += height * 2f;
 
-        //set position in front of player
-        startingPos = playerPos + playerDir * distanceAhead;
+        // set position in front of player
+        startingPos = playerPos + cameraDir * distanceAhead;
         transform.position = startingPos;
         scale = transform.localScale;
         birthTime = Time.time;
 
-        player.transform.forward = Projection.ProjectXZ();
+        // sets values for player LERP
+        playerDirStart = player.transform.forward;
+        playerDirEnd = Projection.ProjectXZ();
     }
 
 
     void FixedUpdate()
     {
+        // player LERP
+        if (playerTurn <= 1)
+        {
+            player.transform.forward = Vector3.Lerp(playerDirStart, playerDirEnd, playerTurn);
+            playerTurn += .2f;
+        }
+
+        // easing
         float u = (Time.time - birthTime) / duration;
         if (u > 1)
         {
@@ -47,7 +61,7 @@ public class Fire : MonoBehaviour
             return;
         }
         transform.localScale = scale * (1 + u) * size;
-        transform.position += playerDir * Time.deltaTime * reach;
+        transform.position += cameraDir * Time.deltaTime * reach;
     }
 
     private void OnTriggerEnter(Collider col)
