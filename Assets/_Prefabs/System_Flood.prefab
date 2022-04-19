@@ -311,8 +311,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c09167801de92d040a551dd65a1a4522, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  triggerObject: {fileID: 0}
-  GOTrigger: {fileID: 0}
+  triggerObjects:
+  - {fileID: 6880421625828387927}
+  GOTrigger:
+  - {fileID: 0}
   duration: 2
 --- !u!1 &6880421626722005627
 GameObject:
