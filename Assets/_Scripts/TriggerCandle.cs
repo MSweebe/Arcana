@@ -3,17 +3,32 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
-/// A trigger class to inherit and customize
+/// A trigger class to flip candle states
 /// </summary>
 /// <para>
-/// Allows extension of setting and resetting triggers for systems.
-/// When inherited, Trigger can be used to create custom actions for an object,
-/// when the object that points to it is interacted with.
+/// A subclass of Trigger that flips the state of any candle object.
+/// sets and unsets the flame sprite.
 /// </para>
 
-public class TriggerCandle : MonoBehaviour
+public class TriggerCandle : Trigger
 {
-    public virtual void SetTrigger() { }
-    public virtual void ResetTrigger() { }
+    public override void SetTrigger()
+    {
+        SetSprite();
+    }
+    public override void ResetTrigger()
+    {
+        SetSprite();
+    }
+
+    void SetSprite()
+    {
+        GameObject child = this.gameObject.transform.GetChild(0).gameObject;
+        if (child != null)
+        {
+            SpriteRenderer sr = child.GetComponent<SpriteRenderer>();
+            sr.enabled = !sr.enabled;
+        }
+    }
 }
 
