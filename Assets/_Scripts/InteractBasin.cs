@@ -26,10 +26,14 @@ public class InteractBasin : Interactible
     {
         this.gameObject.SetActive(false);
 
-        if (triggerObjects[0] != null)
+        foreach (Trigger trigger in GOTrigger)
         {
-            GOTrigger[0].SetTrigger();
+            if (trigger != null)
+            {
+                trigger.SetTrigger();
+            }
         }
+
 
     }
 
