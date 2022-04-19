@@ -25,17 +25,22 @@ public class Water : MonoBehaviour
     float playerTurn = 0;
     GameObject player;
 
+
     // Start is called before the first frame update
     void Start()
     {
         // find where the player is facing and positioned
         player = GameObject.FindGameObjectWithTag("Player");
         Vector3 playerPos = player.transform.position;
-
+        
         // get where camera is facing
         GameObject camera = GameObject.FindGameObjectWithTag("MainCamera");
         playerDir = camera.transform.forward;
 
+        //slow down pitch
+        AudioSource splash = GetComponent<AudioSource>();
+        splash.pitch = (float)0.5;
+        
 
         //set position in front of player
         startingPos = playerPos + playerDir * distanceAhead;
@@ -54,6 +59,8 @@ public class Water : MonoBehaviour
         // sets values for player LERP
         playerDirStart = player.transform.forward;
         playerDirEnd = Projection.ProjectXZ();
+
+        
 
     }
 

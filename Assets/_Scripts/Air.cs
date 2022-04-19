@@ -36,6 +36,10 @@ public class Air : MonoBehaviour
         // set position of air off the ground
         playerPos.y += height;
 
+        //slow down pitch
+        AudioSource wind = GetComponent<AudioSource>();
+        wind.pitch = (float)0.7;
+
         // set position in front of player
         startingPos = playerPos + playerDir * distanceAhead;
 
