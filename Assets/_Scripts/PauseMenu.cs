@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
+    CameraManager camera;
     public GameObject pauseMenu;
     public bool isPaused;
     // Start is called before the first frame update
@@ -24,28 +25,23 @@ public class PauseMenu : MonoBehaviour
                 PauseGame();
             }
         }
-        // if(Input.GetKeyDown(KeyCode.R)) {
-        //     ResumeGame();
-        // }
-
-        // if(Input.GetKeyDown(KeyCode.M)) {
-        //     GoToMainMenu();
-        // }
-        
-        // if(Input.GetKeyDown(KeyCode.Q)) {
-        //     QuitGame();
-        // }
     }
     public void PauseGame() {
         pauseMenu.SetActive(true);
         Time.timeScale = 0f;
         isPaused = true;
+        camera = GameObject.FindGameObjectWithTag("Camera").GetComponent<CameraManager>();
+        camera.isPaused = true;
+        Cursor.visible = true;
+        
     }
 
     public void ResumeGame() {
         pauseMenu.SetActive(false);
         Time.timeScale = 1f;
         isPaused = false;
+        camera.isPaused = false;
+        Cursor.visible = false;
     }
     public void GoToMainMenu() {
         Time.timeScale = 1f;

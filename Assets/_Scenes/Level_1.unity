@@ -1068,6 +1068,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6196691178780289645, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: m_TagString
+      value: Camera
+      objectReference: {fileID: 0}
     - target: {fileID: 6196691179209008131, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1647,6 +1651,7 @@ MonoBehaviour:
   water: {fileID: 246241243637571227, guid: cac5fd2422d97724b8ca8eb48d74f135, type: 3}
   earth: {fileID: 8993461181631947406, guid: 20d9b6560faf15646a610598d228860c, type: 3}
   air: {fileID: 9075021625963582574, guid: b1a34de64bbb83048b75207e5f7f5bb5, type: 3}
+  pauseMenu: {fileID: 0}
 --- !u!1001 &1065358955
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -10,6 +10,7 @@ TagManager:
   - Collectibles
   - Floor
   - PauseMenu
+  - Camera
   layers:
   - Default
   - TransparentFX
