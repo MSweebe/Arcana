@@ -17,17 +17,17 @@ public class InteractCandleReverse : Interactible
     public override void SetFire()
     {
         setSprite(true);
-        if (triggerObject != null)
+        if (triggerObjects[0] != null)
         {
-            GOTrigger.ResetTrigger();
+            GOTrigger[0].ResetTrigger();
         }
     }
     public override void PutOutFire()
     {
         setSprite(false);
-        if (triggerObject != null)
+        if (triggerObjects[0] != null)
         {
-            GOTrigger.SetTrigger();
+            GOTrigger[0].SetTrigger();
         }
     }
 

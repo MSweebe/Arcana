@@ -23,7 +23,7 @@ public class InteractFlood : Interactible
         Vector3 newScale = transform.localScale;
         newScale.y *= 1.05f;
         transform.localScale = newScale;
-        GOTrigger.ResetTrigger();
+        GOTrigger[0].ResetTrigger();
     }
 
     public override void UnFlood()
@@ -32,9 +32,9 @@ public class InteractFlood : Interactible
         timeTriggered = Time.time;
         triggered = true;
         scale = transform.localScale;
-        if (triggerObject != null)
+        if (triggerObjects[0] != null)
         {
-            GOTrigger.SetTrigger();
+            GOTrigger[0].SetTrigger();
         }
 
     }

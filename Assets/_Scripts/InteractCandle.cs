@@ -17,17 +17,31 @@ public class InteractCandle : Interactible
     public override void SetFire()
     {
         setSprite(true);
-        if (triggerObject != null)
+        if (triggerObjects != null)
         {
-            GOTrigger.SetTrigger();
+            for (int i = 0; i < triggerObjects.Length; i++)
+            {
+                if (GOTrigger[i] != null)
+                {
+                    GOTrigger[i].SetTrigger();
+                }
+
+            }
+
         }
     }
     public override void PutOutFire()
     {
         setSprite(false);
-        if (triggerObject != null)
+        if (triggerObjects != null)
         {
-            GOTrigger.ResetTrigger();
+            for (int i = 0; i < triggerObjects.Length; i++)
+            {
+                if (GOTrigger[i] != null)
+                {
+                    GOTrigger[i].ResetTrigger();
+                }
+            }
         }
     }
 
