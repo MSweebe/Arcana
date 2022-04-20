@@ -67,3 +67,6 @@ crashlytics-build.properties
 # Ignore Large Asset File
 #[Aa]ssets/ASTROFISH_GAMES
 /[Aa]ssets/ASTROFISH_GAMES/
+
+# Ignore cs.meta files
+/[Aa]ssets/**/*.cs.meta
