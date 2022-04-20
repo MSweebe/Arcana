@@ -903,6 +903,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 124
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &217870531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6196691179209008128, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+  m_PrefabInstance: {fileID: 1828535460}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &217870533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 217870531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0846bc4dd4f1c1142ae05f4832aba9e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skyboxes:
+  - {fileID: 2100000, guid: d9dca9ae1786c394f9e79c637aa9a7bf, type: 2}
+  - {fileID: 2100000, guid: c52c5d7968fa6c9499b0b5752f899bfb, type: 2}
+  - {fileID: 2100000, guid: efd1c33efd2d58340b88804268e6833f, type: 2}
 --- !u!1001 &234061377
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4304,6 +4325,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+--- !u!82 &850561715 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7005291430478819941, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+  m_PrefabInstance: {fileID: 1828535460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &863817449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9380,6 +9406,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 198844305980801722, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: BGM.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 198844305980801722, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: BGM.Array.data[1]
+      value: 
+      objectReference: {fileID: 850561715}
     - target: {fileID: 233193240011952746, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_Layer
       value: 6

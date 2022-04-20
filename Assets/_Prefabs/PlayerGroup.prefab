@@ -652,7 +652,7 @@ GameObject:
   - component: {fileID: 6196691179209008130}
   - component: {fileID: 6196691179209008129}
   - component: {fileID: 6196691179209008140}
-  - component: {fileID: 8985402838891111846}
+  - component: {fileID: 198844305980801722}
   - component: {fileID: 3488799896382564280}
   - component: {fileID: 7005291430478819941}
   m_Layer: 6
@@ -744,7 +744,7 @@ MonoBehaviour:
   earth: {fileID: 8993461181631947406, guid: 20d9b6560faf15646a610598d228860c, type: 3}
   air: {fileID: 9075021625963582574, guid: b1a34de64bbb83048b75207e5f7f5bb5, type: 3}
   pauseMenu: {fileID: 0}
---- !u!114 &8985402838891111846
+--- !u!114 &198844305980801722
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -753,12 +753,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 6196691179209008128}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 61f5f311176ac4b4e97063b81ede725c, type: 3}
+  m_Script: {fileID: 11500000, guid: 42a55c872d580f445b4763597cbfc53c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   BGM:
   - {fileID: 3488799896382564280}
-  - {fileID: 7005291430478819941}
 --- !u!82 &3488799896382564280
 AudioSource:
   m_ObjectHideFlags: 0
