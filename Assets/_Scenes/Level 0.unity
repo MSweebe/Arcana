@@ -4304,6 +4304,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ddd082fb4672f6643be6891e17a84358, type: 3}
+--- !u!82 &850561715 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 7005291430478819941, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+  m_PrefabInstance: {fileID: 1828535460}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &863817449
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9380,6 +9385,14 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 198844305980801722, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: BGM.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 198844305980801722, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
+      propertyPath: BGM.Array.data[1]
+      value: 
+      objectReference: {fileID: 850561715}
     - target: {fileID: 233193240011952746, guid: 4b4255d5c47b2c843aaa8afd02b4f10d, type: 3}
       propertyPath: m_Layer
       value: 6
