@@ -484,4 +484,5 @@ MonoBehaviour:
   - {fileID: 6084647497070692731}
   - {fileID: 8946647701072162638}
   - {fileID: 4856650663801977918}
-  triggersGO: []
+  triggersGO:
+  - {fileID: 7232858434177847773}
